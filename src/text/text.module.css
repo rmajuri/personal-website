@@ -1,0 +1,9 @@
+.sentence {
+  display: inline;
+  margin: 0 3px 0 0;
+  padding: 0;
+  font-size: .5rem;
+}
+.sentence:hover {
+  font-size: 2rem;
+}
