@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    z-index: 200;
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.option {
+    display: inline;
+    align-content: center;
+    justify-content: center;
+}
