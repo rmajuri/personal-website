@@ -6,7 +6,7 @@ import NavOptions from './NavOptions/NavOptions'
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className='app'>
         <TextWall />
         <NavOptions />
       </div>
