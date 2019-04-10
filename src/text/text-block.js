@@ -186,8 +186,7 @@ Life is not measured by the number of breaths we take, but by the moments that t
 Plant your garden and decorate your own soul, instead of waiting for someone to bring you flowers. -Jose Luis Borges*
 It doesn't matter how far you might rise. At some point, you are bound to stumble.... If you're constantly pushing yourself higher...the law of averages, not to mention the Myth of Icarus, predicts that you will at some point fall. And when you do, I want you to know this, remember this: There is no such thing as failure. Failure is just life trying to move us in another direction. -Oprah Winfrey*
 Running a startup is like eating glass. You just start to like the taste of your own blood. -Sean Parker*
-Nothing in the world can take the place of persistence. Talent will not; nothing is more common than unsuccessful men with talent. Genius will not; the world is full of educated derelicts. Persistence and determination alone are omnipotent. The phrase 'press on' has solved and always will solve the problems of the human race. -Calvin Coolidge,
-Build something 100 people love, not something 1 million people kind of like. -Brian Chesky*
+Nothing in the world can take the place of persistence. Talent will not; nothing is more common than unsuccessful men with talent. Genius will not; the world is full of educated derelicts. Persistence and determination alone are omnipotent. The phrase 'press on' has solved and always will solve the problems of the human race. -Calvin Coolidge*
 There is only one way to avoid criticism: do nothing, say nothing, and be nothing. -Aristotle*
 America was not built on fear. America was built on courage, on imagination and an unbeatable determination to do the job at hand. -Harry S Truman*
 No matter what people tell you, words and ideas can change the world. -Robin Williams*
