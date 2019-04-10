@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Reference for Design / Typeface 
+
+https://saffronavenue.com/blog/tips-tools/brand-font-pairings/
 
 ## Available Scripts
 
