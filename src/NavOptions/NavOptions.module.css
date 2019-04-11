@@ -1,7 +1,7 @@
 .container {
     display: flex;
     z-index: 200;
-    position: absolute;
+    position: fixed;
     top: 55%;
     width: 50%;
     justify-content: space-between;

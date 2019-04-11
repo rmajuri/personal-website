@@ -107,7 +107,6 @@ Creativity is intelligence having fun. -Albert Einstein*
 Little minds are tamed and subdued by misfortune; but great minds rise above them. -Washington Irving*
 It is the mark of an educated mind to be able to entertain a thought without accepting it. -Aristotle*
 Thousands of candles can be lighted from a single candle. Happiness never decreases by being shared. -Gautama Buddha*
-Don't let winning make you soft. Don't let losing make you quite. Don't let your teammates down in any situation. -Larry Bird*
 We learn wisdom from failure much more than from success; we often discover what will do, by finding out what will not do; and probably he who never make a mistake never made a discovery. -Samuel Smiles*
 Fearlessness is like a muscle. I know from my own life that the more I exercise it, the more natural it becomes to not let my fears run me. -Arianna Huffington*
 You can be the ripest, juiciesst peach in the world, and there are still going to be some people who hate peaches. -Dita Von Teese*
@@ -129,7 +128,6 @@ Taxes are what we pay for civilized society. -Oliver Wendell Holmes Jr.*
 Yes, I am a dreamer. For a dreamer is one who can find his way by moonlight, and see the dawn before the rest of the world. -Oscar Wilde*
 I was eating in a Chinese restaurant downtown. There was a dish called Mother and Child Reunion. It's chicken and eggs. And I said, I gotta use that one. -Paul Simon*
 The best way out is always through. -Robert Frost*
-There is only one boss: the customer. And he can fire everybody in the company, from the chairman on down, simply by spending his money somewhere else. -Sam Walton*
 Whenever you read a good book, somewhere in the world a door opens to allow in more light. -Vera Nazarian*
 Death is something inevitable. When a man has done what he considers to be his duty to his people and his country, he can rest in peace. I believe I have made that effort and that is, therefore, why I will sleep for the eternity. -Nelson Mandella*
 It's hard work to make a four-minute program look effortless and elegant. -Katarina Witt*
