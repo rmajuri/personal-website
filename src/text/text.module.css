@@ -1,11 +1,11 @@
 .sentence {
-  margin: 0px 1px 0px 1px;
-  padding: 0;
-  font-size: 8px;
+  margin: 0;
+  padding: 1px 0;
+  font-size: 5px;
   font-weight: 300;
   font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond,
     'Times New Roman', serif;
-  font-style: normal;
+  font-style: bold;
   /* color: rgba(150, 180, 222, 0.5); */
   color: rgba(222, 222, 222);
   letter-spacing: 0.4px;
@@ -84,8 +84,6 @@
   display: flex;
   flex-wrap: wrap;
   padding: 5px;
-  /* background-image: linear-gradient(to right, rgba(222, 229, 232, 0.3),rgba(154, 154,	177, 0.3)); */
-  /* background-image: linear-gradient(to right, rgba(222, 222, 222, 0.3),rgba(154, 154,	177, 0.3)); */
   background-image: linear-gradient(to right, rgba(222, 222, 222, 0.1),rgba(140, 120,	120, 0.3));
   z-index: 100;
   /* margin: 2%; */
