@@ -3,10 +3,36 @@
     z-index: 200;
     position: fixed;
     top: 55%;
-    width: 50%;
+    width: 70%;
     justify-content: space-between;
 }
 
 .option {
     display: inline;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .2rem;
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: 300;
+    background: -webkit-linear-gradient(#bdbdf5, #fafa6c, #ffdfff, #aaaaaa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+}
+
+.hvrgrow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvrgrow:hover,
+.hvrgrow:focus,
+.hvrgrow:active {
+    transform: scale(1.1);
 }

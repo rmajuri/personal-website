@@ -1,17 +1,7 @@
-import React, { Component } from 'react';
-import './App.css';
-import TextWall from './text/TextWall'
-import NavOptions from './NavOptions/NavOptions'
+import React from 'react'
+import './App.css'
+import Routes from './Routes'
 
-class App extends Component {
-  render() {
-    return (
-      <div className='app'>
-        <TextWall />
-        <NavOptions />
-      </div>
-    );
-  }
-}
+const App = () => <Routes />
 
-export default App;
+export default App
