@@ -1,17 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import style from './text.module.css'
-import { splitOnStar, shuffleQuotes, joinAndPushIntoArray } from './utility/utility'
+import { splitOnStar, shuffleQuotes } from './utility/utility'
 import { textBlock } from './text-block'
-import Typed from 'react-typed';
 
 const TextWall = () => {
   const [quotes, setQuotes] = useState([])
 
   useEffect(() => {
     const quoteArray = shuffleQuotes(splitOnStar(textBlock))
-    const arrayWithLongStringOfQuotes = joinAndPushIntoArray(quoteArray)
-    console.log(arrayWithLongStringOfQuotes)
-    setQuotes(arrayWithLongStringOfQuotes)
+    console.log(quoteArray)
+    setQuotes(quoteArray)
   }, [])
 
   const createSpans = quoteArray => {
@@ -26,13 +24,7 @@ const TextWall = () => {
   return (
     <div >
     <p className={style.container}>
-      {/* {createSpans(quotes)} */
-                    <Typed 
-                    className={style.sentence}
-                    strings={quotes} 
-                    typeSpeed={-100000} 
-                />
-    }
+      {createSpans(quotes)}
     </p>
     </div>
   )

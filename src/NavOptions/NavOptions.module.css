@@ -11,10 +11,9 @@
     display: inline;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: .2rem;
-    text-transform: capitalize;
     font-size: 3rem;
     font-weight: 300;
-    background: -webkit-linear-gradient(#bdbdf5, #fafa6c, #ffdfff, #aaaaaa);
+    background: -webkit-linear-gradient(#a5a5f0, #f9fc5c, #ffdfff, #aaaaaa);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: default;

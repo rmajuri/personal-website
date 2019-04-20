@@ -1,0 +1,20 @@
+.container {
+  /* align-self: flex-end; */
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 200;
+  top: 10%;
+  right: 12%;
+}
+
+.headingText {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 1.3rem;
+  font-weight: 300;
+  background: -webkit-linear-gradient(#2222f7, #f0b3e7, #edfd05);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: default;
+}
