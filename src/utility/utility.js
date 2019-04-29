@@ -1,5 +1,9 @@
-export const splitOnStar = quoteBlock => {
+export const splitOnStarHome = quoteBlock => {
   return quoteBlock.split('*').map(quote => quote.trim())
+}
+
+export const splitOnStarHeader = quoteBlock => {
+  return quoteBlock.split('*', 100).map(quote => quote.trim())
 }
 
 export const joinAndPushIntoArray = quoteArray => {

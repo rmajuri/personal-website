@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    z-index: 200;
+    position: fixed;
+    top: 30px;
+    right: 5%;
+    width: 35%;
+    justify-content: space-between;
+  }
+  
+.option {
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#9898ec, #f4f746, #f59cf5, #aaaaaa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+  }
+
+  .hvrgrow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+  }
+  
+  .hvrgrow:hover,
+  .hvrgrow:focus,
+  .hvrgrow:active {
+    transform: scale(1.1);
+  }

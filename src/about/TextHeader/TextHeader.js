@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react'
-import style from './text.module.css'
-import { splitOnStarHome, shuffleQuotes } from '../utility/utility'
-import { textBlock } from './text-block'
+import style from './TextHeader.module.css'
+import { splitOnStarHeader, shuffleQuotes } from '../../utility/utility'
+import { textBlock } from '../../text/text-block'
 
-const TextWall = () => {
+const TextHeader = () => {
   const [quotes, setQuotes] = useState([])
 
   useEffect(() => {
-    const quoteArray = shuffleQuotes(splitOnStarHome(textBlock))
+    const quoteArray = shuffleQuotes(splitOnStarHeader(textBlock))
     console.log(quoteArray)
     setQuotes(quoteArray)
   }, [])
@@ -29,4 +29,4 @@ const TextWall = () => {
   )
 }
 
-export default TextWall
+export default TextHeader
