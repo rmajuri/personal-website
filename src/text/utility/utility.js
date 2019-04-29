@@ -1,6 +1,3 @@
-// export const splitOnStar = quoteBlock => {
-//   return quoteBlock.split('*').map(quote => quote.trim())
-// }
 export const splitOnStar = quoteBlock => {
   return quoteBlock.split('*').map(quote => quote.trim())
 }

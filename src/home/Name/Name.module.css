@@ -1,5 +1,4 @@
 .container {
-  /* align-self: flex-end; */
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -17,4 +16,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: default;
+  margin: 0;
+  margin: 5px 0;
 }

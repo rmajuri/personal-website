@@ -33,9 +33,8 @@
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: rgba(254, 254, 250);
-  opacity: .5;
+  opacity: 0.5;
 }
-
 
 .paragraph {
   width: 45%;
@@ -44,8 +43,6 @@
   color: #aaaaaa;
   padding: 5px;
 }
-
-/* Give words an opacity. AND possibly a linear gradient. */
 
 .wordExpand {
   margin: 0;
@@ -56,4 +53,3 @@
   position: absolute;
   z-index: 100;
 }
-

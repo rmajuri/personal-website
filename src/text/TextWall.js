@@ -15,17 +15,17 @@ const TextWall = () => {
   const createSpans = quoteArray => {
     const classes = [style.sentence]
     return quoteArray.map((quote, i) => {
-      return (<span key={`quote${i}`} className={classes.join(' ')}>
-      {quote}
-    </span>)
+      return (
+        <span key={`quote${i}`} className={classes.join(' ')}>
+          {quote}
+        </span>
+      )
     })
   }
 
   return (
-    <div >
-    <p className={style.container}>
-      {createSpans(quotes)}
-    </p>
+    <div>
+      <p className={style.container}>{createSpans(quotes)}</p>
     </div>
   )
 }

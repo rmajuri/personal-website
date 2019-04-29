@@ -5,11 +5,11 @@ import style from './Home.module.css'
 import Name from './Name/Name'
 
 const Home = () => (
-    <div className={style.homeContainer} >
-      <TextWall />
-      <Name/>
-      <NavOptions />
-    </div>
+  <div className={style.homeContainer}>
+    <TextWall />
+    <Name />
+    <NavOptions />
+  </div>
 )
 
 export default Home
