@@ -2,14 +2,23 @@ import React from 'react'
 import TextHeader from './TextHeader/TextHeader'
 import style from './About.module.css'
 import NavOptionsHeader from './NavOptions/NavOptionsHeader'
+import Typed from 'react-typed'
+import { bio } from './AboutText'
 
 const About = () => {
   return (
     <div>
-      <div className={style.container} />
+      <div className={style.container}>
         <TextHeader />
         <NavOptionsHeader />
         <div className={style.colorPatch}/>
+        <img className={style.photo} src='rob.jpg' alt="Photograph of Rob Majuri" />
+        <Typed className={style.bio}
+                strings={[bio]}
+                    typeSpeed={40}
+                    loop={false} >
+                </Typed>
+      </div>
     </div>
   )
 }

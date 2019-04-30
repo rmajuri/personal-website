@@ -10,6 +10,99 @@
   cursor: default;
 }
 
+.imgAndBioContainer {
+  display: flex;
+  width: 100%;
+}
+
+@-webkit-keyframes slide {
+  from {
+    margin-left: 450px;
+    opacity: 0.6;
+  }
+
+  to {
+      margin-left: 10px;
+      opacity: 0.3;
+  }
+}
+
+@-moz-keyframes slide {
+  from {
+    margin-left: 450px;
+    opacity: 0.6;
+  }
+
+  to {
+      margin-left: 10px;
+      opacity: 0.3;
+  }
+}
+@-o-keyframes slide {
+  from {
+    margin-left: 450px;
+    opacity: 0.6;
+  }
+
+  to {
+      margin-left: 10px;
+      opacity: 0.3;
+  }
+}
+@keyframes slide {
+  from {
+    margin-left: 450px;
+    opacity: 0.6;
+  }
+
+  to {
+      margin-left: 10px;
+      opacity: 0.3;
+  }
+}
+
+.bio {
+  font-size: .7rem;
+  font-family: 'Libre Baskerville', serif;
+  line-height: 1.25rem;
+  color: rgb(187, 187, 187);
+  letter-spacing: 0.2rem;
+  z-index: 25;
+  position: fixed;
+  width: 500px;
+  top: 160px;
+  right: 300px;
+  overflow: auto;
+}
+
+.photo {
+  width: 275px;
+  height: 450px;
+  margin-top: 125px;
+  margin-left: 10px;
+  border-style: solid;
+  border-width: 10px;
+  background-color: rgba(255, 255, 224, 0.15);
+  border-color: rgba(247, 210, 210, 0.15);
+  padding: 10px;
+  opacity: 0.3;
+
+  -webkit-animation-duration: 1s;
+  -webkit-animation-name: slide;
+
+  /*for firefox*/
+  -moz-animation-duration: 1s;
+  -moz-animation-name: slide;
+
+    /* for opera*/
+  -o-animation-duration: 1s;
+  -o-animation-name: slide;
+
+    /* Standard syntax*/
+  animation-duration: 2s;
+  animation-name: slide;
+}
+
 .colorPatch {
     width: 450px;
     height: 100%;
