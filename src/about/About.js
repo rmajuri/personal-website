@@ -4,11 +4,12 @@ import style from './About.module.css'
 import NavOptionsHeader from './NavOptions/NavOptionsHeader'
 
 const About = () => {
-  
   return (
     <div>
-      <TextHeader />
-      <NavOptionsHeader />
+      <div className={style.container} />
+        <TextHeader />
+        <NavOptionsHeader />
+        <div className={style.colorPatch}/>
     </div>
   )
 }
