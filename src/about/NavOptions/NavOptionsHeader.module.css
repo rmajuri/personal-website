@@ -3,8 +3,8 @@
     z-index: 2500;
     position: fixed;
     top: 30px;
-    right: 5%;
-    width: 35%;
+    right: 3%;
+    width: 37%;
     justify-content: space-between;
   }
   
@@ -35,4 +35,32 @@
   .hvrgrow:focus,
   .hvrgrow:active {
     transform: scale(1.1);
+  }
+
+
+  @media only screen and (max-width: 600px) {
+
+    .container {
+      top: 8%;
+      right: auto;
+      width: 90%;
+      justify-content: space-between;
+    }
+
+    .option {
+      font-size: 0.9rem;
+    }
+
+  }    
+
+  /* MEDIA QUERY FOR IPHONE 5 SE */
+  @media screen and (device-aspect-ratio: 40/71) {
+
+    .container {
+      top: 12%;
+    }
+
+    .option {
+      font-size: 0.8rem;
+    }
   }

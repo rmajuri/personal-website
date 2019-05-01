@@ -1,5 +1,5 @@
 .container {
-  width: 140%;
+  width: 100%;
   height: 100%;
   left: 0;
   top: 0;
@@ -8,6 +8,39 @@
   margin: 0;
   position: fixed;
   cursor: default;
+  display: flex;
+}
+
+.header {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  background: -webkit-linear-gradient(#6868f3, #f8fc2a, #ec67ec, #aaaaaa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: default;
+  position: fixed;
+  align-self: flex-start;
+  z-index: 5000;
+  margin: 10px 0 0 15px;
+}
+
+.hvrgrow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvrgrow:hover,
+.hvrgrow:focus,
+.hvrgrow:active {
+  transform: scale(1.1);
 }
 
 .imgAndBioContainer {
@@ -70,7 +103,7 @@
   position: fixed;
   width: 500px;
   top: 170px;
-  right: 300px;
+  right: 17%;
   overflow: auto;
 }
 
@@ -121,4 +154,79 @@
   z-index: 0;
   margin: 0;
   cursor: default;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .header {
+    font-size: 1.5rem;
+    top: 15px;
+    left: 15px;
+    margin: 0;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .photo {
+    height: 65%;
+    width: 75%;
+    margin: 135px 0 0;
+    opacity: 0.2;
+  }
+
+  .bio {
+    display: inline-block;
+    top: 60%;
+    right: auto;
+    width: 71%;
+    height: 36%;
+  }
+
+  @-webkit-keyframes slide {
+    from {
+      margin-left: 450px;
+      opacity: 0.6;
+    }
+  
+    to {
+      margin-left: 0;
+      opacity: 0.2;
+    }
+  }
+  
+  @-moz-keyframes slide {
+    from {
+      margin-left: 450px;
+      opacity: 0.6;
+    }
+  
+    to {
+      margin-left: 0;
+      opacity: 0.2;
+    }
+  }
+  @-o-keyframes slide {
+    from {
+      margin-left: 450px;
+      opacity: 0.6;
+    }
+  
+    to {
+      margin-left: 0;
+      opacity: 0.2;
+    }
+  }
+  @keyframes slide {
+    from {
+      margin-left: 450px;
+      opacity: 0.6;
+    }
+  
+    to {
+      margin-left: 0;
+      opacity: 0.2;
+    }
+  }
 }
