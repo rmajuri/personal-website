@@ -22,8 +22,8 @@
   }
 
   to {
-      margin-left: 10px;
-      opacity: 0.3;
+    margin-left: 10px;
+    opacity: 0.3;
   }
 }
 
@@ -34,8 +34,8 @@
   }
 
   to {
-      margin-left: 10px;
-      opacity: 0.3;
+    margin-left: 10px;
+    opacity: 0.3;
   }
 }
 @-o-keyframes slide {
@@ -45,8 +45,8 @@
   }
 
   to {
-      margin-left: 10px;
-      opacity: 0.3;
+    margin-left: 10px;
+    opacity: 0.3;
   }
 }
 @keyframes slide {
@@ -56,21 +56,20 @@
   }
 
   to {
-      margin-left: 10px;
-      opacity: 0.3;
+    margin-left: 10px;
+    opacity: 0.3;
   }
 }
 
 .bio {
-  font-size: .7rem;
+  font-size: 0.7rem;
   font-family: 'Libre Baskerville', serif;
   line-height: 1.25rem;
-  color: rgb(187, 187, 187);
+  color: rgb(99, 98, 98);
   letter-spacing: 0.2rem;
-  z-index: 25;
   position: fixed;
   width: 500px;
-  top: 160px;
+  top: 170px;
   right: 300px;
   overflow: auto;
 }
@@ -94,32 +93,32 @@
   -moz-animation-duration: 1s;
   -moz-animation-name: slide;
 
-    /* for opera*/
+  /* for opera*/
   -o-animation-duration: 1s;
   -o-animation-name: slide;
 
-    /* Standard syntax*/
+  /* Standard syntax*/
   animation-duration: 2s;
   animation-name: slide;
 }
 
 .colorPatch {
-    width: 450px;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-    background-image: linear-gradient(
-      to left,
-      rgba(255, 255, 255, 0.1),
-      rgba(255, 255, 255, 0.2),
-      rgba(245, 236, 236),
-      rgb(247, 250, 214)
-    );
-    z-index: 0;
-    margin: 0;
-    cursor: default;
+  width: 450px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.2),
+    rgba(245, 236, 236),
+    rgb(247, 250, 214)
+  );
+  z-index: 0;
+  margin: 0;
+  cursor: default;
 }

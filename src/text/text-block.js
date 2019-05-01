@@ -39,36 +39,36 @@ Remember that the happiest people are not those getting more, but those giving m
 It is our choices, that show what we truly are, far more than our abilities. -J. K Rowling*
 If you want to be happy, be. -Leo Tolstoy*
 If you want to live a happy life, tie it to a goal, not to people or things. -Albert Einstein*
-The opposite of love is not hate; it’s indifference. -Elie Wiesel*
+Works of art make rules; rules do not make works of art. –Claude Debussy*
 A friend is someone who gives you total freedom to be yourself. -Jim Morrison*
 Live in the sunshine, swim the sea, drink the wild air. -Ralph Waldo Emerson*
 Life is trying things to see if they work. -Ray Bradbury*
-Your time is limited, so don’t waste it living someone else’s life. Don’t be trapped by dogma – which is living with the results of other people’s thinking. -Steve Jobs*
-You will face many defeats in life, but never let yourself be defeated. -Maya Angelou*
+Mournful and yet grand is the destiny of the artist. –Franz Liszt*
+There was no one near to confuse me, so I was forced to become original. –Franz Joseph Haydn*
 Those who believe in telekinetics, raise my hand. -Kurt Vonnegut*
 The person who reads too much and uses his brain too little will fall into lazy habits of thinking. -Albert Einstein*
 Have no fear of perfection, you’ll never reach it.  -Salvador Dali*
 Life is not a problem to be solved, but a reality to be experienced. -Søren Kierkegaard*
 Curiosity about life in all of its aspects, I think, is still the secret of great creative people. -Leo Burnett*
 I have learned over the years that when one's mind is made up, this diminishes fear. -Rosa Parks*
-Give me a stock clerk with a goal, and I will give you a man who will make history. Give me a man without a goal, and I will give you a stock clerk. -James Cash Penny*
-A lot of the time the experts, the people who are supposed to be able to tell you what to do, will tell you that you can't do something even when you know you can. And a lot of the time it's your friends ... who tell you you can do it. -Mark Zuckerberg*
-Life is a daring adventure or it is nothing at all. -Helen Keller*
-Don't tell people how to do things; tell them what to do and let them surprise you with their results. -George S. Patton*
-True luck consists not in holding the best of the cards at the table; luckiest is he who knows just when to rise and go home. -John Hay*
+A creative artist works on his next composition because he was not satisfied with his previous one. –Dmitri Shostakovich*
+I can’t understand why people are frightened of new ideas. I’m frightened of the old ones. –John Cage*
+I would rather write 10,000 notes than a single letter of the alphabet. –Ludwig van Beethoven*
+The music is not in the notes, but in the silence between. –Wolfgang Amadeus Mozart*
+Imagination creates reality. –Richard Wagner*
 Victory has a hundred fathers and defeat is an orphan. -John F.Kennedy*
-Fall seven times and stand up eight. -Anonymous*
-Life is 10 percent what happens to me and 90 percent of how I react to it. -Charles Swindoll*
-I've missed more than 9000 shots in my career. I've lost almost 300 games. 26 times I've been trusted to take the game winning shot and missed. I've failed over and over and over again in my life. And that is why I succeed. -Michael Jordan*
+You never really understand a person until you consider things from his point of view...Until you climb inside of his skin and walk around in it. —Harper Lee*
+The mark of the immature man is that he wants to die nobly for a cause, while the mark of the mature man is that he wants to live humbly for one. —J.D. Salinger*
+I assign myself no rank or any limit, and such an attitude is very much against the trend of the times. But my world has become one of infinite possibilities. —Ralph Ellison,*
 The most difficult thing is the decision to act, the rest is merely tenacity. -Amelia Earhart*
 Nothing is impossible, the word itself says, 'I'm possible!' -Audrey Hepburn*
-It is during our darkest moments that we must focus to see the light. -Aristotle Onassis*
+You will become way less concerned with what other people think of you when you realize how seldom they do. —David Foster Wallace*
 I have been impressed with the urgency of doing. Knowing is not enough; we must apply. Being willing is not enough; we must do. -Leonardo da Vinci*
 The successful warrior is the average man, with laserlike focus. -Bruce Lee*
 Nothing in all the world is more dangerous than sincere ignorance and conscientious stupidity. -Martin Luther King*
 If you want to lift yourself up, lift up someone else. -Booker T. Washington*
 If there is no struggle, there is no progress. -Frederick Douglas*
-Running a startup is like being punched in the face repeatedly, but working for a large company is like being waterboarded. -Paul Graham*
+Tomorrow is always fresh, with no mistakes in it yet. -L.M. Montgomery*
 Everything has beauty, but not everyone can see. -Confucius*
 We can't help everyone, but everyone can help someone. -Ronald Reagan*
 For me, the most fun is change or growth. There are definitely elements of both that I like. Launching a business is kind of like a motorboat: You can go very quickly and turn fast. -Tony Hseih*
@@ -100,7 +100,7 @@ We can easily forgive a child who is afraid of the dark; the real tragedy of lif
 Being able to touch so many people through my businesses, and make money while doing it, is a huge blessing. -Magic Johnson*
 Always make a total effort, even when the odds are against you. -Arnold Palmer*
 As you start your journey, the first thing you should do is throw away that store-bought map and begin to draw your own. -Michael Dell*
-I am not a product of my circumstances. I am a product of my decisions. -Stephen Covey*
+I had the epiphany that laughter was light, and light was laughter, and that this was the secret of the universe. –Donna Tartt*
 Happiness is not the absence of problems; it's the ability to deal with them. -Steve Maraboli*
 Happiness is not something ready made. It comes from your own actions. -Dalai Lama*
 Creativity is intelligence having fun. -Albert Einstein*
@@ -140,16 +140,16 @@ I honestly think it is better to be a failure at something you love than to be a
 It is amazing what you can accomplish if you do not care who gets the credit. -Harry S. Truman*
 When you find an idea that you just can't stop thinking about, that's probably a good one to pursue. -Josh James*
 What is harder than rock, or softer than water? Yet soft water hollows out hard rock. Persevere. -Ovid*
-Winners are the ones who really listen to the truth of their hearts. -Sylvester Stalone*
+Even the darkest night will end and the sun will rise. -Victor Hugo*
 Everything has beauty, but not everyone can see. -Confucius*
 If you aren't going all the way, why go at all? -Joe Namath*
-An ounce of mother is worth a pound of clergy. -Rudyard Kipling*
-Police officers and firemen are so visible in their daily work, there's no mistaking they're there - and that presence makes people feel secure. -Irwin Redlener*
+It was my life – like all lives, mysterious and irrevocable and sacred. So very close, so very present, so very belonging to me. How wild it was, to let it be. –Cheryl Strayed*
+Happiness can be found even in the darkest of times if only someone remembers to turn on the light. –J.K. Rowling*
 People will forget what you said, people will forget what you did, but people will never forget how you made them feel. -Maya Angelou*
 The truth is, everyone is going to hurt you. You just got to find the ones worth suffering for. -Bob Marley*
-The question isn't who is going to let me; it's who is going to stop me. -Ayn Rand*
-When I was in jail, I was a lot of people's favorite person. I practically ran the jail. I had more freedom than the police. -Flavor Flav*
-Whoever said the pen is mightier than the sword obviously never encountered automatic weapons. -Douglas MacArthur*
+You are your best thing. –Toni Morrison*
+At any rate, that is happiness; to be dissolved into something complete and great. -Willa Cather*
+There are darknesses in life and there are lights, and you are one of the lights, the light of all lights. -Bram Stroker*
 You must not only aim right, but draw the bow with all your might. -Henry David Thoreau*
 Hope will never be silent. -Harvey Milk*
 The true test of character is not how much we know how to do, but how we behave when we don't know what to do. -John Holt*
@@ -157,7 +157,6 @@ What we hope to do with ease, we must first learn to do with diligence. -Samuel 
 I know you've heard it a thousand times before. But it's true-hard work pays off. If you want to be good, you have to practice, practice, practice. If you don't love something, then don't do it. -Ray Bradbury*
 Who sows virtue reaps honor. -Leonardy da Vinci*
 It takes 20 years to build a reputation and five minutes to ruin it. If you think about that, you'll do things differently. -Warren Buffet*
-Giving up smoking is the easiest thing in the world. I know because I've done it thousands of times. -Mark Twain*
 We are all in the gutter, but some of us are looking at the stars. -Oscar Wilde*
 I know the price of success: dedication, hard work and an unremitting devotion to the things you want to see happen. -Frank Lloyd Wright*
 Everyone wants to live on top of the mountain, but all the happiness and growth occurs while you're climbing it. -Andy Rooney*
@@ -234,8 +233,7 @@ I'm not happy on vacation. In those rare times when I have three hours with no w
 I think of doing a series as very hard work. But then I've talked to coal miners, and that's really hard work. -William Shatner*
 Faith moves mountains, but you have to keep pushing while you're praying. -Mason Cooley*
 Failure is success if we learn from it. -Malcolm Forbes*
-I never dreamt of success. I worked for it. -Estee Lauder*
-The best protection any woman can have... is courage. -Elizabeth Cady Stanton*
+And now that you don’t have to be perfect, you can be good. -John Steinbeck*
 The American city should be a collection of communities where every member has a right to belong. It should be a place where every man feels safe on his streets and in the house of his friends. -Lyndon Johnson*
 When you miss a shot, never think of what you did wrong. Take the next shot thinking of what you must do right. -Tony Alfonso*
 Luck can only get you so far. -J.K. Rowling*
@@ -260,10 +258,9 @@ The power of an air force is terrific when there is nothing to oppose it. -Winst
 In order to discover new lands, one must be willing to lose sight of the shore for a very long time. -Anonymous*
 I would rather die of passion than of boredom. -Vincent Van Gogh*
 Let our New Year's resolution be this: we will be there for one another as fellow members of humanity, in the finest sense of the word. -Goran Persson*
-Your income is directly related to your philosophy, not the economy. -Jim Rohn*
+No need to hurry. No need to sparkle. No need to be anybody but oneself. –Virginia Woolf*
 A hero is someone who has given his or her life to something bigger than oneself. -Joseph Campbell*
-I made a resolve then that I was going to amount to something if I could. And no hours, nor amount of labor, nor amount of money would deter me from giving the best that there was in me. And I have done that ever since, and I win by it. I know.
--Harlan Sanders, founder of Kentucky Fried Chicken*
+When a person really desires something, all the universe conspires to help that person to realise his dream. –Paulo Coelho*
 There are those who look at things the way they are, and ask why... I dream of things that never were, and ask why not? -Robert F. Kennedy*
 Life is short, and the world is wide. -Simon Raven*
 Nature gave men two ends... one to sit on and one to think with. Ever since then man's success or failure has been dependent on the one he used most. -George R. Kilpatrick*
@@ -294,10 +291,10 @@ If you want your children to turn out well, spend twice as much time with them, 
 If you are not embarrassed by the first version of your product, you've launched too late. -Reid Hoffman*
 Those who don't believe in magic will never find it. -Roald Dahl*
 Never be afraid to try something new. Remember, amateurs built the ark. Professionals built the Titanic. -Anonymous*
-Fear is only as deep as the mind allows. -Anonymous*
+Just think happy thoughts and you’ll fly. –J.M. Barrie*
 Pray as though everything depended on God. Work as though everything depended on you. -Saint Augustine*
 Performance-wise, you really need to be down in the trenches; you need to do the hard work, for a lot of reasons: To build yourself as a performer, to get a sense of the audience, to work hard and to wonder, 'Do I really want to do this?' -Joan Jett*
-If you do what you've always done, you'll get what you've always gotten. -Tony Robbins*
+Things we lose have a way of coming back to us in the end, if not always in the way we expect. -J.K Rowling*
 Time is what we want most, but what we use worst. -William Penn*
 The vote is the most powerful instrument ever devised by man for breaking down injustice and destroying the terrible walls which imprison men because they are different from other men. -Lyndon Johnson*
 Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars to change the world. -Harriet Tubman*
@@ -324,7 +321,7 @@ Everyone thinks of changing the world, but no one thinks of changing himself. -L
 My parents had always preached the virtues of hard work. But hard work is one thing; economic struggle is another. -Sargent Shriver*
 Change will not come if we wait for some other person or some other time. We are the ones we've been waiting for. We are the change that we seek. -Barack Obama*
 Human history begins with man's act of disobedience which is at the very same time the beginning of his freedom and development of his reason. -Erich Fromm*
-The history of the world is the history of a few people who had faith in themselves. -Swami Vivekananda*
+The mind is its own place, and in itself can make a heaven of hell, a hell of heaven. -John Milton*
 Happy people are beautiful. They become like a mirror and they reflect that happiness. -Drew Barrymore*
 Things may come to those who wait, but only the things left by those who hustle. -Abraham Lincoln*
 Life's too mysterious, don't take it serious. -George Gershwin*
@@ -348,7 +345,7 @@ For it is good to be children sometimes, and never better than at Christmas, whe
 To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment. -Ralph Waldo Emerson*
 Success is often achieved by those who don't know that failure is inevitable. -Coco Chanel*
 It is not what you do for your children, but what you have taught them to do for themselves, that will make them successful human beings. -Ann Landers*
-What would you attempt to do if you knew you would not fail? -Robert Schuller*
+Ever tried. Ever failed. No matter. Try again. Fail again. Fail better. -Samuel Beckett*
 An optimist stays up until midnight to see the new year in. A pessimist stays up to make sure the old year leaves. -Bill Vaughn*
 The greatest glory in living lies not in never falling, but in rising every time we fall. -Nelson Mandela*
 The way to get started is to quit talking and begin doing. -Walt Disney*
@@ -368,7 +365,7 @@ Whoever is happy will make others happy too. -Anne Frank*
 Do not go where the path may lead, go instead where there is no path and leave a trail. -Ralph Waldo Emerson*
 Spread love everywhere you go. Let no one ever come to you without leaving happier. -Mother Teresa*
 When you reach the end of your rope, tie a knot in it and hang on. -Franklin D. Roosevelt*
-Always remember that you are absolutely unique. Just like everyone else. -Margaret Mead*
+Live all you can; it’s a mistake not to. It doesn’t so much matter what you do in particular, so long as you have your life. -Henry James*
 The future belongs to those who believe in the beauty of their dreams. -Eleanor Roosevelt*
 Tell me and I forget. Teach me and I remember. Involve me and I learn. -Benjamin Franklin*
 The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart. -Helen Keller*
@@ -405,7 +402,7 @@ Life is a long lesson in humility. -James M. Barrie*
 In three words I can sum up everything I've learned about life: it goes on. -Robert Frost*
 Love the life you live. Live the life you love. -Bob Marley*
 Life is either a daring adventure or nothing at all. -Helen Keller*
-You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose. -Dr. Seuss*
+So we beat on, boats against the current, borne back ceaselessly into the past. -F. Scott Fitzgerald*
 Life is made of ever so many partings welded together. -Charles Dickens*
 Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking. -Steve Jobs*
 Life is trying things to see if they work. -Ray Bradbury*
@@ -414,7 +411,7 @@ Success is not final; failure is not fatal: It is the courage to continue that c
 Success usually comes to those who are too busy to be looking for it. -Henry David Thoreau*
 The way to get started is to quit talking and begin doing. -Walt Disney*
 If you really look closely, most overnight successes took a long time. -Steve Jobs*
-The secret of success is to do the common thing uncommonly well. -John D. Rockefeller Jr.*
+Behind every exquisite thing that existed, there was something tragic. -Oscar Wilde*
 I find that the harder I work, the more luck I seem to have. -Thomas Jefferson*
 The real test is not whether you avoid this failure, because you won't. It's whether you let it harden or shame you into inaction, or whether you learn from it; whether you choose to persevere. -Barack Obama*
 The secret of success is to do the common thing uncommonly well. -John D. Rockefeller Jr.*
@@ -428,7 +425,7 @@ Success seems to be connected with action. Successful people keep moving. They m
 There are no secrets to success. It is the result of preparation, hard work, and learning from failure. -Colin Powell*
 The real test is not whether you avoid this failure, because you won't. It's whether you let it harden or shame you into inaction, or whether you learn from it; whether you choose to persevere. -Barack Obama*
 It is better to fail in originality than to succeed in imitation. -Herman Melville*
-Successful people do what unsuccessful people are not willing to do. Don't wish it were easier; wish you were better. -Jim Rohn*
+It is to the credit of human nature that, except where its selfishness is brought into play, it loves more readily than it hates. -Nathaniel Hawthorne*
 The road to success and the road to failure are almost exactly the same. -Colin R. Davis*
 I failed my way to success. -Thomas Edison*
 If you set your goals ridiculously high and it's a failure, you will fail above everyone else's success. -James Cameron*
@@ -449,7 +446,7 @@ Whether you think you can or you think you can't, you're right. -Henry Ford*
 I have learned over the years that when one's mind is made up, this diminishes fear. -Rosa Parks*
 I alone cannot change the world, but I can cast a stone across the water to create many ripples. -Mother Teresa*
 Nothing is impossible, the word itself says, ‘I'm possible!' -Audrey Hepburn*
-The question isn't who is going to let me; it's who is going to stop me. -Ayn Rand*
+Be good, be young, be true! Evil is nothing but vanity, let us have the pride of good, and above all let us never despair. —Alexandre Dumas*
 The only person you are destined to become is the person you decide to be. -Ralph Waldo Emerson*
 Believe you can and you're halfway there. -Theodore Roosevelt*
 The only person you are destined to become is the person you decide to be. -Ralph Waldo Emerson*
@@ -460,11 +457,11 @@ The most difficult thing is the decision to act, the rest is merely tenacity. -A
 How wonderful it is that nobody need wait a single moment before starting to improve the world. -Anne Frank*
 An unexamined life is not worth living. -Socrates*
 Everything you've ever wanted is on the other side of fear. -George Addair*
-Life is 10% what happens to me and 90% of how I react to it. -Charles Swindoll*
+It is only with the heart that one can see rightly; what is essential is invisible to the eye. —Antoine de Saint-Exupéry*
 Nothing is impossible, the word itself says, ‘I'm possible!' -Audrey Hepburn*
 It does not matter how slowly you go as long as you do not stop. -Confucius*
 When everything seems to be going against you, remember that the airplane takes off against the wind, not with it. -Henry Ford*
-Too many of us are not living our dreams because we are living our fears. -Les Brown*
+Deep in the human unconscious is a pervasive need for a logical universe that makes sense. But the real universe is always one step beyond logic. —Frank Herbert*
 I have learned over the years that when one's mind is made up, this diminishes fear. -Rosa Parks*
 I didn't fail the test. I just found 100 ways to do it wrong. -Benjamin Franklin*
 If you're offered a seat on a rocket ship, don't ask what seat! Just get on. -Sheryl Sandberg*

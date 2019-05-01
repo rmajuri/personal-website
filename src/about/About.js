@@ -11,13 +11,18 @@ const About = () => {
       <div className={style.container}>
         <TextHeader />
         <NavOptionsHeader />
-        <div className={style.colorPatch}/>
-        <img className={style.photo} src='rob.jpg' alt="Photograph of Rob Majuri" />
-        <Typed className={style.bio}
-                strings={[bio]}
-                    typeSpeed={40}
-                    loop={false} >
-                </Typed>
+        <div className={style.colorPatch} />
+        <img
+          className={style.photo}
+          src="rob.jpg"
+          alt="Photograph of Rob Majuri"
+        />
+        <Typed
+          className={style.bio}
+          strings={[bio]}
+          typeSpeed={40}
+          loop={false}
+        />
       </div>
     </div>
   )

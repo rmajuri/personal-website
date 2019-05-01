@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Switch, Route, Redirect, BrowserRouter } from 'react-router-dom'
 import Home from './home/Home'
 import About from './about/About'
+import Work from './work/Work'
 
 class Routes extends Component {
   render() {
@@ -10,6 +11,7 @@ class Routes extends Component {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/work" component={Work} />
           <Redirect to="/" />
         </Switch>
       </BrowserRouter>
