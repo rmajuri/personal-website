@@ -16,14 +16,14 @@
   letter-spacing: 0.2rem;
   font-size: 2rem;
   font-weight: 700;
-  background: -webkit-linear-gradient(#6868f3, #f8fc2a, #ec67ec, #aaaaaa);
+  background: -webkit-linear-gradient(#6868f3, #f8fc2a, #f092f0, #aaaaaa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: default;
   position: fixed;
   align-self: flex-start;
   z-index: 5000;
-  margin: 10px 0 0 15px;
+  margin: 31px 0 0 15px;
 }
 
 .hvrgrow {

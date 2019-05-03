@@ -12,11 +12,15 @@
 
 .imgAndDescContainer {
   display: flex;
+  align-items: center;
 }
 
 .videoContainer {
-  margin-top: 122px;
-  padding-left: 110px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 22px;
+  padding-left: 0;
+  align-items: flex-start;
 }
 
 .video {
@@ -27,15 +31,15 @@
 }
 
 .videoTitle {
-  /* font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.2rem;
   font-size: 2rem;
   font-weight: 200;
   font-family: 'Libre Baskerville', serif;
-  background: -webkit-linear-gradient(#858484, #f3eaf3);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
+  color: rgb(151, 150, 150);
   margin: 0;
+  margin-top: 80px;
+  width: 100%;
 }
 
 .description {
@@ -46,7 +50,9 @@
   font-family: 'Libre Baskerville', serif;
   line-height: 1rem;
   color: rgb(99, 98, 98);
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
+  margin-right: 15px;
+  z-index: 9000;
 }
 
 p {
@@ -78,4 +84,92 @@ p {
   margin: 0;
   cursor: default;
   transform: skew(15deg, 15deg);
+}
+
+i {
+  letter-spacing: 0.2rem;
+  font-size: 3em;
+  font-weight: 300;
+  background: -webkit-linear-gradient(#c1c1f5, #f8fa88, #facefa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: default;
+  z-index: 10000;
+  width: 50px;
+  height: 50px;
+  margin: 150px 25px 0;
+  padding: 0;
+  text-align: center;
+  background-size: 200% 200%;
+}
+@-webkit-keyframes Animation {
+  0%{background-position:10% 0%}
+  50%{background-position:91% 100%}
+  100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+  0%{background-position:10% 0%}
+  50%{background-position:91% 100%}
+  100%{background-position:10% 0%}
+}
+@keyframes Animation { 
+  0%{background-position:10% 0%}
+  50%{background-position:91% 100%}
+  100%{background-position:10% 0%}
+}
+
+i:hover {
+  background: -webkit-linear-gradient(#8888f3, #f0f335, #f094f0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: Animation 10s ease infinite;
+  -moz-animation: Animation 10s ease infinite;
+  animation: Animation 10s ease infinite;
+}
+
+i:active {
+  background: -webkit-linear-gradient(#828285, #858581, #838183);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  background: -webkit-linear-gradient(#6868f3, #f8fc2a, #f092f0, #aaaaaa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: default;
+  position: fixed;
+  align-self: flex-start;
+  z-index: 5000;
+  margin: 31px 0 0 15px;
+}
+
+.hvrgrow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvrgrow:hover,
+.hvrgrow:focus,
+.hvrgrow:active {
+  transform: scale(1.1);
+}
+
+.boldText {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
 }
