@@ -12,7 +12,7 @@ const Work = props => {
   const headerClasses = [style.header, style.hvrgrow]
   const rightIconClasses = ['fa', 'fa-arrow-circle-right']
   const leftIconClasses = ['fa', 'fa-arrow-circle-left']
-
+  
   return (
     <div>
       <div className={style.container}>
