@@ -2,77 +2,92 @@ import React, { useState, useEffect } from 'react'
 import TextHeader from '../about/TextHeader/TextHeader'
 import style from './Work.module.css'
 import NavOptionsHeader from '../about/NavOptions/NavOptionsHeader'
-import Typed from 'react-typed'
 import { Link } from 'react-router-dom'
+import { projectData } from './Projects'
+
 
 const Work = props => {
   const [projectNumber, setProjectNumber] = useState(0)
-  const [projects, setProjects] = useState([])
-  const [currentProject, setCurrentProject] = useState({})
+  const [projects] = useState(projectData)
+  const [currentProject, setCurrentProject] = useState(projectData[0])
   const headerClasses = [style.header, style.hvrgrow]
-  const rightIconClasses = ['fa', 'fa-arrow-circle-right']
-  const leftIconClasses = ['fa', 'fa-arrow-circle-left']
-  
-  return (
+  const VIDEO = <video></video>
+
+  const handlePageFlipClick = direction => {
+    let num 
+    if (direction === 'left') {
+      if (projectNumber === 0) {
+        num = projects.length - 1
+      } else {
+        num = projectNumber - 1
+      }
+    } else {
+      if (projectNumber === projects.length - 1) {
+        num = 0
+      } else {
+        num = projectNumber + 1
+      }
+    }
+    setProjectNumber(num)
+    setCurrentProject(projects[num])
+    console.log(currentProject)
+    console.log(projectNumber)
+  }
+
+  return currentProject.projectTitle ? (
     <div>
       <div className={style.container}>
-      <Link to="/">
-      <h1 className={headerClasses.join(' ')}>RM</h1>
-      </Link>
+        <Link to="/">
+          <h1 className={headerClasses.join(' ')}>RM</h1>
+        </Link>
         <TextHeader />
         <NavOptionsHeader />
         <div className={style.colorPatch} />
+        <div className={style.arrowLeft}>
+          <i className='fa fa-arrow-circle-left' onClick={() => handlePageFlipClick('left')} />
+        </div>
         <div className={style.imgAndDescContainer}>
-          <i className={leftIconClasses.join(' ')} />
+          <h1 className={style.videoTitle}>{currentProject.projectTitle}</h1>
           <div className={style.videoContainer}>
-            <Typed
-              className={style.videoTitle}
-              strings={['Click-Chord']}
-              typeSpeed={40}
-              loop={false}
-            />
-            <video className={style.video} controls>
-              <source
-                src="click-chord.mp4"
-                type="video/mp4"
+            <VIDEO className={style.video} controls>
+              {/* <source
+                src={currentProject.videoURL}
+                type={currentProject.videoType}
                 className={style.clickChordVideo}
-              />
-            </video>
+              /> */}
+            </VIDEO>
           </div>
           <div className={style.description}>
+          { currentProject.deployedAt.length ? 
             <p>
               <span className={style.boldText}>Deployed at: </span>
-              <span><a href="http://clickchord.herokuapp.com" target="blank">http://clickchord.herokuapp.com</a></span>
-            </p>
+              <span>
+                <a href={currentProject.deployedAt} target="blank">
+                  {currentProject.deployedAt}
+                </a>
+              </span>
+          </p> : null}
+          { currentProject.github.length ? 
             <p>
               <span className={style.boldText}>GitHub Repository: </span>
-            <span><a href="https://github.com/rmajuri/click-chord" target="blank">https://github.com/rmajuri/click-chord</a></span>
-            </p>
-            <p>
-              Winner of People's Choice Award at Fullstack Academy of Code.
-              Click-Chord is an app project I undertook to learn about browser
-              audio APIs. The app renders out clickable boxes that each trigger
-              a different musical chord within the scale the user has selected.
-              To provide users with enjoyable instrumentation to interact with,
-              I used the Tone.js library, which converts HTML5's oscillator
-              sounds into "synthesizer" tones. The Tone.js library also provided
-              an API that allowed me to develop a "Rhythm Maker" interface that
-              lets users build their own drum sequences to backdrop chord
-              progressions they create. Alternatively, users can toggle this
-              feature to a "Rhythm Player" that offers pre-built rhythms.
-            </p>
-            <p>
-              <span className={style.italic}>
-                *Note: Not compatible with some web browsers. Best viewed using
-                Google Chrome.
+              <span>
+                <a href={currentProject.github} target="blank">
+                  {currentProject.github}
+                </a>
               </span>
+          </p> : null}
+            <p>{currentProject.description}</p>
+            <p>
+              <span className={style.italic}>{currentProject.note}</span>
             </p>
           </div>
-          <i className={rightIconClasses.join(' ')} />
+        </div>
+        <div className={style.arrowRight}>
+        <i className='fa fa-arrow-circle-right' onClick={() => handlePageFlipClick('right')} />
         </div>
       </div>
-    </div>
-  )
+      </div>
+  ) : null
 }
 
 export default Work

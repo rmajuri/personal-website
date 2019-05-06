@@ -10,11 +10,6 @@
   cursor: default;
 }
 
-.imgAndDescContainer {
-  display: flex;
-  align-items: center;
-}
-
 .videoContainer {
   display: flex;
   flex-direction: column;
@@ -24,6 +19,9 @@
 }
 
 .video {
+  position: fixed;
+  top: 190px;
+  left: 100px;
   width: 500px;
   height: 350px;
   margin: 0;
@@ -31,6 +29,9 @@
 }
 
 .videoTitle {
+  position: fixed;
+  top: 130px;
+  left: 105px;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.2rem;
   font-size: 2rem;
@@ -38,13 +39,15 @@
   font-family: 'Libre Baskerville', serif;
   color: rgb(151, 150, 150);
   margin: 0;
-  margin-top: 80px;
   width: 100%;
+  position: fixed;
 }
 
 .description {
-  margin-top: 180px;
-  width: 27%;
+  position: fixed;
+  top: 190px;
+  right: 95px;
+  width: 37%;
   padding-left: 47px;
   font-size: 0.7rem;
   font-family: 'Libre Baskerville', serif;
@@ -52,11 +55,14 @@
   color: rgb(99, 98, 98);
   letter-spacing: 0.1rem;
   margin-right: 15px;
-  z-index: 9000;
-}
-
-p {
-  margin-bottom: 22px;
+  z-index: 0;
+  cursor: text;
+  -webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
 }
 
 .video:focus {
@@ -86,6 +92,49 @@ p {
   transform: skew(15deg, 15deg);
 }
 
+.header {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  background: -webkit-linear-gradient(#6868f3, #f8fc2a, #f092f0, #aaaaaa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: default;
+  position: absolute;
+  align-self: flex-start;
+  z-index: 5000;
+  margin: 31px 0 0 15px;
+}
+
+
+.hvrgrow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvrgrow:hover,
+.hvrgrow:focus,
+.hvrgrow:active {
+  transform: scale(1.1);
+}
+
+.boldText {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
+}
+
+
 i {
   letter-spacing: 0.2rem;
   font-size: 3em;
@@ -97,7 +146,7 @@ i {
   z-index: 10000;
   width: 50px;
   height: 50px;
-  margin: 150px 25px 0;
+  margin: 0;
   padding: 0;
   text-align: center;
   background-size: 200% 200%;
@@ -133,43 +182,25 @@ i:active {
   -webkit-text-fill-color: transparent;
 }
 
-.header {
-  font-family: 'Open Sans', sans-serif;
-  letter-spacing: 0.2rem;
-  font-size: 2rem;
-  font-weight: 700;
-  background: -webkit-linear-gradient(#6868f3, #f8fc2a, #f092f0, #aaaaaa);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  cursor: default;
-  position: fixed;
-  align-self: flex-start;
-  z-index: 5000;
-  margin: 31px 0 0 15px;
+.arrowLeft {
+  position: absolute;
+  top: 300px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
 }
 
-.hvrgrow {
-  display: inline-block;
-  vertical-align: middle;
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  transition-duration: 0.3s;
-  transition-property: transform;
+.arrowRight {
+  position: absolute;
+  top: 300px;
+  right: 520px;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
 }
 
-.hvrgrow:hover,
-.hvrgrow:focus,
-.hvrgrow:active {
-  transform: scale(1.1);
-}
 
-.boldText {
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.italic {
-  font-style: italic;
-}
