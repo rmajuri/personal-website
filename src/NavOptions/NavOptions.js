@@ -13,9 +13,11 @@ const NavOptions = () => {
         <h1 className={classes.join(' ')}>ABOUT</h1>
       </Link>
       <Link to="/contact">
-      <h1 className={classes.join(' ')}>CONTACT</h1>
+        <h1 className={classes.join(' ')}>CONTACT</h1>
       </Link>
-      <h1 className={classes.join(' ')}>RESUME</h1>
+      <Link to="/resume">
+        <h1 className={classes.join(' ')}>RESUME</h1>
+      </Link>
     </div>
   )
 }

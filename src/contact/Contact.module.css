@@ -19,7 +19,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: default;
-    position: absolute;
+    position: fixed;
     align-self: flex-start;
     z-index: 5000;
     margin: 31px 0 0 15px;
