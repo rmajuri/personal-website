@@ -16,9 +16,11 @@ const Resume = () => {
         <TextHeader />
         <NavOptionsHeader />
         <div className={style.downloadArrow}>
-            <a href="Robert_Majuri_Resume.pdf" download><i className="fas fa-arrow-alt-circle-down"></i></a>
+          <a href="Robert_Majuri_Resume.pdf" download>
+            <i className="fas fa-arrow-alt-circle-down" />
+          </a>
         </div>
-        <embed src="Robert_Majuri_Resume.pdf" type="application/pdf" className={style.pdf} toolbar={0} />
+        <embed src="Robert_Majuri_Resume.pdf" type="application/pdf" className={style.pdf} />
       </div>
     </div>
   )

@@ -2,3 +2,12 @@
   display: flex;
   justify-content: center;
 }
+
+.githubIcon {
+  position: fixed;
+  top: 83px;
+  right: 25px;
+  width: 100px;
+  height: 100px;
+  z-index: 10000;
+}

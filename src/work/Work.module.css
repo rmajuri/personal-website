@@ -143,18 +143,17 @@ i {
   letter-spacing: 0.2rem;
   font-size: 3em;
   font-weight: 300;
-  background: -webkit-linear-gradient(#c1c1f5, #f8fa88, #facefa);
+  background: -webkit-linear-gradient(#8888f3, #f0f335, #f094f0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: default;
   z-index: 10000;
-  width: 50px;
-  height: 50px;
   margin: 0;
   padding: 0;
   text-align: center;
   background-size: 200% 200%;
 }
+
 @-webkit-keyframes Animation {
   0% {
     background-position: 10% 0%;
@@ -190,7 +189,7 @@ i {
 }
 
 i:hover {
-  background: -webkit-linear-gradient(#8888f3, #f0f335, #f094f0);
+  background: -webkit-linear-gradient(#c1c1f5, #f2f55d, #ee46ee);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: Animation 10s ease infinite;
@@ -223,4 +222,11 @@ i:active {
   margin: 0;
   padding: 0;
   margin-left: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  i {
+    font-size: 2rem;
+  }
 }

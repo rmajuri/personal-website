@@ -18,6 +18,12 @@ const NavOptionsHeader = () => {
       <Link to="/resume">
         <h1 className={classes.join(' ')}>RESUME</h1>
       </Link>
+      <div className={style.iconBox}>
+      <a href="https://github.com/rmajuri" target="blank">
+      <i className="fab fa-github"></i>
+      </a>
+      </div>
+
     </div>
   )
 }

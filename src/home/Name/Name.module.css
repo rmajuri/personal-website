@@ -19,3 +19,31 @@
   margin: 0;
   margin: 5px 0;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    top: 8%;
+    left: 10%;
+  }
+}
+
+@media screen and (device-aspect-ratio: 40/71) {
+
+  .headingText {
+    font-size: 1.1rem;
+
+  }
+
+  .container {
+    top: 8%;
+    left: 10%;
+  }
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+
+  .headingText {
+    font-size: 1.1rem;
+  }
+}
+

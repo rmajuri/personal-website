@@ -91,7 +91,7 @@ const Work = props => {
           </div>
         </div>
         <div className={style.arrowRight}>
-        <i className='fa fa-arrow-circle-right' onClick={() => handlePageFlipClick('right')} />
+        <i className='fa fa-arrow-circle-right icon' onClick={() => handlePageFlipClick('right')} />
         </div>
       </div>
       </div>
