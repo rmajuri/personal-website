@@ -26,6 +26,12 @@
   margin: 31px 0 0 15px;
 }
 
+.header:active {
+  background: -webkit-linear-gradient(#828285, #858581, #838183);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .hvrgrow {
   display: inline-block;
   vertical-align: middle;

@@ -1,0 +1,50 @@
+.container {
+    width: 140%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 0;
+    background-color: rgba(250, 236, 236, 0.2);
+    margin: 0;
+    position: fixed;
+    cursor: default;
+  }
+
+  .header {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#6868f3, #f8fc2a, #f092f0, #aaaaaa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+    position: absolute;
+    align-self: flex-start;
+    z-index: 5000;
+    margin: 31px 0 0 15px;
+  }
+
+  .header:active {
+    background: -webkit-linear-gradient(#828285, #858581, #838183);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .hvrgrow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+  }
+  
+  .hvrgrow:hover,
+  .hvrgrow:focus,
+  .hvrgrow:active {
+    transform: scale(1.1);
+  }
+  

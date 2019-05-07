@@ -58,11 +58,11 @@
   z-index: 0;
   cursor: text;
   -webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
--o-user-select: none;
-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 .video:focus {
@@ -107,6 +107,11 @@ user-select: none;
   margin: 31px 0 0 15px;
 }
 
+.header:active {
+  background: -webkit-linear-gradient(#828285, #858581, #838183);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .hvrgrow {
   display: inline-block;
@@ -134,7 +139,6 @@ user-select: none;
   font-style: italic;
 }
 
-
 i {
   letter-spacing: 0.2rem;
   font-size: 3em;
@@ -152,19 +156,37 @@ i {
   background-size: 200% 200%;
 }
 @-webkit-keyframes Animation {
-  0%{background-position:10% 0%}
-  50%{background-position:91% 100%}
-  100%{background-position:10% 0%}
+  0% {
+    background-position: 10% 0%;
+  }
+  50% {
+    background-position: 91% 100%;
+  }
+  100% {
+    background-position: 10% 0%;
+  }
 }
 @-moz-keyframes Animation {
-  0%{background-position:10% 0%}
-  50%{background-position:91% 100%}
-  100%{background-position:10% 0%}
+  0% {
+    background-position: 10% 0%;
+  }
+  50% {
+    background-position: 91% 100%;
+  }
+  100% {
+    background-position: 10% 0%;
+  }
 }
-@keyframes Animation { 
-  0%{background-position:10% 0%}
-  50%{background-position:91% 100%}
-  100%{background-position:10% 0%}
+@keyframes Animation {
+  0% {
+    background-position: 10% 0%;
+  }
+  50% {
+    background-position: 91% 100%;
+  }
+  100% {
+    background-position: 10% 0%;
+  }
 }
 
 i:hover {
@@ -202,5 +224,3 @@ i:active {
   padding: 0;
   margin-left: 20px;
 }
-
-

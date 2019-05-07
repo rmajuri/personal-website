@@ -12,7 +12,9 @@ const NavOptionsHeader = () => {
       <Link to="/about">
         <h1 className={classes.join(' ')}>ABOUT</h1>
       </Link>
+      <Link to="/contact">
       <h1 className={classes.join(' ')}>CONTACT</h1>
+      </Link>
       <h1 className={classes.join(' ')}>RESUME</h1>
     </div>
   )
