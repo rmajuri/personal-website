@@ -1,17 +1,17 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import TextHeader from '../about/TextHeader/TextHeader'
 import style from './Work.module.css'
 import NavOptionsHeader from '../about/NavOptions/NavOptionsHeader'
 import { Link } from 'react-router-dom'
 import { projectData } from './Projects'
-
+import Typed from 'react-typed'
+import Iframe from 'react-iframe'
 
 const Work = props => {
   const [projectNumber, setProjectNumber] = useState(0)
   const [projects] = useState(projectData)
   const [currentProject, setCurrentProject] = useState(projectData[0])
   const headerClasses = [style.header, style.hvrgrow]
-  const VIDEO = <video></video>
 
   const handlePageFlipClick = direction => {
     let num 
@@ -30,8 +30,6 @@ const Work = props => {
     }
     setProjectNumber(num)
     setCurrentProject(projects[num])
-    console.log(currentProject)
-    console.log(projectNumber)
   }
 
   return currentProject.projectTitle ? (
@@ -47,15 +45,25 @@ const Work = props => {
           <i className='fa fa-arrow-circle-left' onClick={() => handlePageFlipClick('left')} />
         </div>
         <div className={style.imgAndDescContainer}>
-          <h1 className={style.videoTitle}>{currentProject.projectTitle}</h1>
+          <Typed 
+          className={style.videoTitle}
+          key={currentProject.projectTitle}
+          strings={[currentProject.projectTitle]}
+          typeSpeed={40}
+          loop={false}
+          />
           <div className={style.videoContainer}>
-            <VIDEO className={style.video} controls>
-              {/* <source
+          { currentProject.videoType !== 'YouTube' ?
+            <video className={style.video} key={currentProject.videoURL} controls>
+              <source
                 src={currentProject.videoURL}
                 type={currentProject.videoType}
-                className={style.clickChordVideo}
-              /> */}
-            </VIDEO>
+              />
+            </video> :
+            <Iframe key={currentProject.videoURL} className={style.video}
+              url={currentProject.videoURL}
+            />
+          }
           </div>
           <div className={style.description}>
           { currentProject.deployedAt.length ? 

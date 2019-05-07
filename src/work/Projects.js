@@ -34,7 +34,7 @@ export const projectData = [
     github: 'https://github.com/S-E-R-J/catify',
     description: `For my capstone project in Fullstack Academy's Software Engineering immersive, I worked with a group to develop a mobile messaging app called Catify. To build this app, we used React Native and the Expo.io toolchain. Among my particular contributions to the project was developing UI using React Native, as well as Native Base and Expo libraries. I helped develop our app's navigation architecture, messaging interface, and photo-generation feature. I also integrated Redux into our application.`,
     note: '',
-    videoURL: 'click-chord.mp4',
-    videoType: ''
+    videoURL: 'https://www.youtube.com/embed/RogIJkblx04',
+    videoType: 'YouTube'
   },
 ]
