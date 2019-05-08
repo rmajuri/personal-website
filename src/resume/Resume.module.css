@@ -1,6 +1,6 @@
 .container {
-  width: 100%;
-  height:calc(100vh);
+  width: calc(100vw);
+  height: calc(100vh);
   left: 0;
   top: 0;
   padding: 0;
@@ -8,8 +8,10 @@
   margin: 0;
   position: fixed;
   cursor: default;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   display: flex;
+  align-content: center;
+  flex-direction: column;
 }
 
 .header {
@@ -56,22 +58,31 @@
   right: 100px;
 }
 
-.pdf {
-  position: absolute;
+.docWrapper {
+  position: fixed;
+  align-self: center;
   top: 200px;
-  left: 200px;
-  height: 1035px;
+  width: 800px;
+  overflow: auto;
+  height: 605px;
+}
+
+.pdf {
+  position: relative;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
   margin-bottom: 30px;
-  padding: 0;
+  padding: 10px;
   border-style: solid;
   border-width: 10px;
   background-color: rgba(255, 255, 224, 0.15);
   border-color: rgba(247, 210, 210, 0.15);
-  padding: 10px;
+  z-index: 11000;
 }
 
 @media only screen and (max-width: 600px) {
-
   .header {
     font-size: 1.5rem;
     top: 15px;
@@ -90,39 +101,55 @@
     right: 20px;
   }
 
-  .pdf {
-    position: absolute;
-    left: 0;
-    top: 200px;
-    width: 100px;
-    margin-bottom: 30px;
-    padding: 0;
+  .docWrapper {
+    
   }
- 
+
+  .pdf {
+    position: fixed;
+    left: 15px;
+    top: 200px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-style: none;
+    background-color: rgba(255, 255, 224, 0.15);
+    border-color: none;
+  }
 }
 
 @media screen and (device-aspect-ratio: 40/71) {
-  .pdf {
-    position: relative;
-    left: 0;
+
+  .docWrapper {
+    position: fixed;
+    align-self: center;
     top: 200px;
-    width: 90%;
-    height: 70%;
-    margin-bottom: 30px;
-    padding: 0;
+    width: 320px;
+    height: 400px;
+    overflow: auto;
   }
 
+  .pdf {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    overflow: auto;
+    top: 0;
+  }
+
+}
+
+@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+  .pdf {
+    left: 15px;
+  }
 }
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
   .pdf {
-    position: relative;
-    left: 0;
-    top: 200px;
-    width: 90%;
-    height: 72%;
-    margin-bottom: 30px;
-    padding: 0;
+    top: 190px;
+    left: 20px;
   }
 }
-

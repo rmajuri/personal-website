@@ -60,7 +60,7 @@ const Work = props => {
                 type={currentProject.videoType}
               />
             </video> :
-            <Iframe key={currentProject.videoURL} className={style.video}
+            <Iframe key={currentProject.videoURL} className={style.iFrame}
               url={currentProject.videoURL}
             />
           }

@@ -54,12 +54,6 @@
   .option {
     font-size: 0.9rem;
   }
-
-  .iconBox {
-    position: absolute;
-    top: -35px;
-    right: 0px;
-  }
 }
 
 /* MEDIA QUERY FOR IPHONE 5 SE */
@@ -71,22 +65,4 @@
   .option {
     font-size: 0.8rem;
   }
-
-  .iconBox {
-    position: absolute;
-    top: -45px;
-    right: 0px;
-  }
-
 }
-
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-  .iconBox {
-    position: absolute;
-    top: -33px;
-    right: 0px;
-  }
-}
-
-
-

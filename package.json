@@ -6,6 +6,7 @@
     "hover.css": "^2.3.2",
     "pdfjs-dist": "^2.0.943",
     "react": "^16.8.5",
+    "react-device-detect": "^1.6.2",
     "react-dom": "^16.8.5",
     "react-iframe": "^1.8.0",
     "react-pdf": "^4.0.5",

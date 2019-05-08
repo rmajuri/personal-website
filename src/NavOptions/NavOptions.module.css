@@ -17,6 +17,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: default;
+  margin: 0;
 }
 
 .option:active {

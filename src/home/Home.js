@@ -9,11 +9,6 @@ const Home = () => (
     <TextWall />
     <Name />
     <NavOptions />
-    <div className={style.githubIcon}>
-      <a href="https://github.com/rmajuri" target="blank">
-        <i className="fab fa-github" />
-      </a>
-    </div>
   </div>
 )
 
