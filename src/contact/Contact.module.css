@@ -62,13 +62,13 @@
       rgba(255, 251, 251, 0.1),
       rgba(255, 249, 249, 0.2),
       rgba(255, 230, 230, 0.5),
-      rgba(208, 221, 120, 0.514),
+      rgba(228, 233, 194, 0.514),
       rgba(240, 224, 224, 0.1)
     );
-    z-index: 4000;
+    z-index: 0;
     margin: 0;
     cursor: default;
-    transform: skew(5deg, 55deg);
+    transform: skew(15deg, 85deg);
   }
 
   .contactDetailsContainer {
