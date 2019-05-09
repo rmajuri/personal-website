@@ -9,6 +9,7 @@
   position: fixed;
   cursor: default;
   display: flex;
+  overflow: auto;
 }
 
 .videoContainer {

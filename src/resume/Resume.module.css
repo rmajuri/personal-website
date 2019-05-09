@@ -10,7 +10,6 @@
   cursor: default;
   display: flex;
   flex-direction: column;
-  overflow: auto;
 }
 
 .header {
