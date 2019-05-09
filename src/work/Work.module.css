@@ -9,7 +9,6 @@
   position: fixed;
   cursor: default;
   display: flex;
-  overflow: auto;
 }
 
 .videoContainer {
@@ -251,6 +250,7 @@ i:active {
   .container {
     flex-direction: column;
     align-items: center;
+    overflow-y: auto;
   }
 
   .videoTitle {
