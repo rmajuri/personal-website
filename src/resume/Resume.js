@@ -44,7 +44,7 @@ const Resume = () => {
         ) : (
           <div className={style.docWrapper}>
             <MobilePDFReader
-              url="Robert_Majuri_Resume.pdf"
+              url="./Robert_Majuri_Resume.pdf"
               isShowHeader={false}
             />
           </div>
