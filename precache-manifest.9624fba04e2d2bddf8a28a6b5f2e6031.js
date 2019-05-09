@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/robert-majuri/static/css/main.88e9197d.chunk.css"
   },
   {
-    "revision": "cc25442744057dab56d697d53d5d2f0b",
+    "revision": "8e2bb7d649e6be932ebb937aea9b6c8c",
     "url": "/robert-majuri/index.html"
   }
 ];
