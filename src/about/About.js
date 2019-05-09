@@ -19,7 +19,7 @@ const About = () => {
         <div className={style.colorPatch} />
         <img
           className={style.photo}
-          src=".rob.jpg"
+          src="./rob.jpg"
           alt="Photograph of Rob Majuri"
         />
         <Typed
