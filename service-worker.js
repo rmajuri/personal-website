@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/robert-majuri/precache-manifest.22b8afb7846d2ce7fb49548826b8672c.js"
+  "/robert-majuri/precache-manifest.2a67ee2deed8ccdde20ffca186575a51.js"
 );
 
 workbox.clientsClaim();
