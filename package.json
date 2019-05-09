@@ -10,6 +10,7 @@
     "react-dom": "^16.8.5",
     "react-iframe": "^1.8.0",
     "react-pdf": "^4.0.5",
+    "react-read-pdf": "^2.0.9",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
     "react-typed": "^1.1.2"

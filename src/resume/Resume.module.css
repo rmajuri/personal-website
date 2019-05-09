@@ -1,5 +1,5 @@
 .container {
-  width: calc(100vw);
+  width: 100%;
   height: calc(100vh);
   left: 0;
   top: 0;
@@ -10,7 +10,7 @@
   cursor: default;
   /* overflow-y: scroll; */
   display: flex;
-  align-content: center;
+  /* align-content: center; */
   flex-direction: column;
 }
 
@@ -102,54 +102,12 @@
   }
 
   .docWrapper {
-    
-  }
-
-  .pdf {
-    position: fixed;
-    left: 15px;
-    top: 200px;
-    margin-bottom: 30px;
-    padding: 10px;
-    border-style: none;
-    background-color: rgba(255, 255, 224, 0.15);
-    border-color: none;
-  }
-}
-
-@media screen and (device-aspect-ratio: 40/71) {
-
-  .docWrapper {
     position: fixed;
     align-self: center;
-    top: 200px;
-    width: 320px;
-    height: 400px;
-    overflow: auto;
-  }
-
-  .pdf {
-    position: relative;
-    width: 90%;
-    height: 100%;
-    margin: 0;
-    margin-bottom: 30px;
-    padding: 0;
-    overflow: auto;
-    top: 0;
+    top: 170px;
+    width: 350px;
+    height: 500px;
   }
 
 }
 
-@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
-  .pdf {
-    left: 15px;
-  }
-}
-
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-  .pdf {
-    top: 190px;
-    left: 20px;
-  }
-}

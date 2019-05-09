@@ -236,7 +236,6 @@ i:active {
   margin-left: 20px;
 }
 
-
 @media only screen and (max-width: 600px) {
 
   i {
@@ -299,7 +298,7 @@ i:active {
 
   .arrowLeft {
     position: fixed;
-    top: 300px;
+    top: 200px;
     left: 5px;
     width: 50px;
     height: 50px;
@@ -309,7 +308,7 @@ i:active {
   
   .arrowRight {
     position: fixed;
-    top: 300px;
+    top: 200px;
     right: -10px;
     width: 50px;
     height: 50px;
@@ -317,7 +316,6 @@ i:active {
     padding: 0;
   }
 }
-
 
 @media screen and (device-aspect-ratio: 40/71) {
   .description {
@@ -337,7 +335,7 @@ i:active {
 }
 
 
-@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (min-width: 414px) and (min-height: 736px) and (-webkit-device-pixel-ratio: 3) {
 
   .description {
     position: fixed;
@@ -354,6 +352,5 @@ i:active {
     overflow: scroll;
   }
 }
-
 
 
