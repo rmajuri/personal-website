@@ -14,7 +14,7 @@ const Work = props => {
   const headerClasses = [style.header, style.hvrgrow]
 
   const handlePageFlipClick = direction => {
-    let num 
+    let num
     if (direction === 'left') {
       if (projectNumber === 0) {
         num = projects.length - 1
@@ -42,48 +42,60 @@ const Work = props => {
         <NavOptionsHeader />
         <div className={style.colorPatch} />
         <div className={style.arrowLeft}>
-          <i className='fa fa-arrow-circle-left' onClick={() => handlePageFlipClick('left')} />
+          <i
+            className="fa fa-arrow-circle-left"
+            onClick={() => handlePageFlipClick('left')}
+          />
         </div>
         <div className={style.imgAndDescContainer}>
-          <Typed 
-          className={style.videoTitle}
-          key={currentProject.projectTitle}
-          strings={[currentProject.projectTitle]}
-          typeSpeed={40}
-          loop={false}
+          <Typed
+            className={style.videoTitle}
+            key={currentProject.projectTitle}
+            strings={[currentProject.projectTitle]}
+            typeSpeed={40}
+            loop={false}
           />
           <div className={style.videoContainer}>
-          { currentProject.videoType !== 'YouTube' ?
-            <video className={style.video} key={currentProject.videoURL} controls>
-              <source
-                src={currentProject.videoURL}
-                type={currentProject.videoType}
+            {currentProject.videoType !== 'YouTube' ? (
+              <video
+                className={style.video}
+                key={currentProject.videoURL}
+                controls
+              >
+                <source
+                  src={currentProject.videoURL}
+                  type={currentProject.videoType}
+                />
+              </video>
+            ) : (
+              <Iframe
+                key={currentProject.videoURL}
+                className={style.iFrame}
+                url={currentProject.videoURL}
               />
-            </video> :
-            <Iframe key={currentProject.videoURL} className={style.iFrame}
-              url={currentProject.videoURL}
-            />
-          }
+            )}
           </div>
           <div className={style.description}>
-          { currentProject.deployedAt.length ? 
-            <p>
-              <span className={style.boldText}>Deployed at: </span>
-              <span>
-                <a href={currentProject.deployedAt} target="blank">
-                  {currentProject.deployedAt}
-                </a>
-              </span>
-          </p> : null}
-          { currentProject.github.length ? 
-            <p>
-              <span className={style.boldText}>GitHub Repository: </span>
-              <span>
-                <a href={currentProject.github} target="blank">
-                  {currentProject.github}
-                </a>
-              </span>
-          </p> : null}
+            {currentProject.deployedAt.length ? (
+              <p>
+                <span className={style.boldText}>Deployed at: </span>
+                <span>
+                  <a href={currentProject.deployedAt} target="blank">
+                    {currentProject.deployedAt}
+                  </a>
+                </span>
+              </p>
+            ) : null}
+            {currentProject.github.length ? (
+              <p>
+                <span className={style.boldText}>GitHub Repository: </span>
+                <span>
+                  <a href={currentProject.github} target="blank">
+                    {currentProject.github}
+                  </a>
+                </span>
+              </p>
+            ) : null}
             <p>{currentProject.description}</p>
             <p>
               <span className={style.italic}>{currentProject.note}</span>
@@ -91,10 +103,13 @@ const Work = props => {
           </div>
         </div>
         <div className={style.arrowRight}>
-        <i className='fa fa-arrow-circle-right icon' onClick={() => handlePageFlipClick('right')} />
+          <i
+            className="fa fa-arrow-circle-right icon"
+            onClick={() => handlePageFlipClick('right')}
+          />
         </div>
       </div>
-      </div>
+    </div>
   ) : null
 }
 

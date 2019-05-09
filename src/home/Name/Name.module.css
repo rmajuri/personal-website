@@ -31,14 +31,17 @@
   .container {
     top: 8%;
     left: 10%;
+    width: 80%;
+  }
+
+  .headingText {
+    font-size: 1rem;
   }
 }
 
 @media screen and (device-aspect-ratio: 40/71) {
-
   .headingText {
-    font-size: 1.1rem;
-
+    font-size: 0.9rem;
   }
 
   .container {
@@ -48,9 +51,7 @@
 }
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-
   .headingText {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
-

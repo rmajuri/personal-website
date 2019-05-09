@@ -8,7 +8,6 @@ const TextWall = () => {
 
   useEffect(() => {
     const quoteArray = shuffleQuotes(splitOnStarHome(textBlock))
-    console.log(quoteArray)
     setQuotes(quoteArray)
   }, [])
 

@@ -8,7 +8,6 @@ const TextHeader = () => {
 
   useEffect(() => {
     const quoteArray = shuffleQuotes(splitOnStarHeader(textBlock))
-    console.log(quoteArray)
     setQuotes(quoteArray)
   }, [])
 

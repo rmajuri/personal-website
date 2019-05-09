@@ -30,7 +30,7 @@
   padding: 0;
 }
 
-.iFrame{
+.iFrame {
   position: fixed;
   top: 210px;
   left: 100px;
@@ -237,7 +237,6 @@ i:active {
 }
 
 @media only screen and (max-width: 600px) {
-
   i {
     font-size: 2rem;
   }
@@ -260,7 +259,7 @@ i:active {
     top: 145px;
     font-size: 1.5rem;
     width: 80%;
-    
+
     left: 15%;
   }
 
@@ -305,7 +304,7 @@ i:active {
     margin: 0;
     padding: 0;
   }
-  
+
   .arrowRight {
     position: fixed;
     top: 200px;
@@ -334,9 +333,7 @@ i:active {
   }
 }
 
-
 @media only screen and (min-width: 414px) and (min-height: 736px) and (-webkit-device-pixel-ratio: 3) {
-
   .description {
     position: fixed;
     top: 420px;
@@ -352,5 +349,3 @@ i:active {
     overflow: scroll;
   }
 }
-
-

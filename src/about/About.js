@@ -11,9 +11,9 @@ const About = () => {
   return (
     <div>
       <div className={style.container}>
-      <Link to="/">
-      <h1 className={headerClasses.join(' ')}>RM</h1>
-      </Link>
+        <Link to="/">
+          <h1 className={headerClasses.join(' ')}>RM</h1>
+        </Link>
         <TextHeader />
         <NavOptionsHeader />
         <div className={style.colorPatch} />
