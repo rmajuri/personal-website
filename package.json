@@ -1,9 +1,8 @@
 {
-  "name": "jayne-eyre",
+  "name": "Robert Majuri",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "express": "^4.16.4",
     "gh-pages": "^2.0.1",
     "hover.css": "^2.3.2",
     "pdfjs-dist": "^2.0.943",
@@ -34,5 +33,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage":"https://rmajuri.github.io/robert-majuri"
+  "homepage": "https://rmajuri.github.io/robert-majuri"
 }
