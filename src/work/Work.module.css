@@ -8,7 +8,6 @@
   margin: 0;
   position: fixed;
   cursor: default;
-  overflow-y: scroll;
   display: flex;
 }
 
