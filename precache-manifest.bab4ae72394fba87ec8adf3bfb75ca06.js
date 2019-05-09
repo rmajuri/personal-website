@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/robert-majuri/static/js/runtime~main.a4e3cdad.js"
   },
   {
-    "revision": "679f5c23ced56c02dd54",
+    "revision": "f9b1f652a59f83de1dbb",
     "url": "/robert-majuri/static/js/main.ecef8785.chunk.js"
   },
   {
@@ -12,11 +12,11 @@ self.__precacheManifest = [
     "url": "/robert-majuri/static/js/2.6aa115da.chunk.js"
   },
   {
-    "revision": "679f5c23ced56c02dd54",
-    "url": "/robert-majuri/static/css/main.88e9197d.chunk.css"
+    "revision": "f9b1f652a59f83de1dbb",
+    "url": "/robert-majuri/static/css/main.aed1ae0f.chunk.css"
   },
   {
-    "revision": "8e2bb7d649e6be932ebb937aea9b6c8c",
+    "revision": "b8c14c4b2e306b405a28f082b813d22b",
     "url": "/robert-majuri/index.html"
   }
 ];
