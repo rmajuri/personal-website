@@ -111,3 +111,13 @@
   }
 
 }
+
+@media screen and (device-aspect-ratio: 40/71) {
+  .docWrapper {
+    position: fixed;
+    align-self: center;
+    top: 170px;
+    width: 280px;
+    height: 380px;
+  }
+}

@@ -25,14 +25,14 @@
 
 @media only screen and (max-width: 600px) {
   .container {
-    width: 400%;
+    width: 100%;
+  }
+  .sentence {
+    font-size: 2px;
   }
 }
 
 @media screen and (device-aspect-ratio: 40/71) {
-  .container {
-    width: 460%;
-  }
 
   .sentence {
     color: rgb(228, 228, 228);

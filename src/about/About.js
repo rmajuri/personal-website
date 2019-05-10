@@ -2,7 +2,6 @@ import React from 'react'
 import TextHeader from './TextHeader/TextHeader'
 import style from './About.module.css'
 import NavOptionsHeader from './NavOptions/NavOptionsHeader'
-import Typed from 'react-typed'
 import { bio } from './AboutText'
 import { Link } from 'react-router-dom'
 
@@ -22,12 +21,9 @@ const About = () => {
           src="rob.jpg"
           alt="Photograph of Rob Majuri"
         />
-        <Typed
+        <p
           className={style.bio}
-          strings={[bio]}
-          typeSpeed={40}
-          loop={false}
-        />
+        >{bio}</p>
       </div>
     </div>
   )

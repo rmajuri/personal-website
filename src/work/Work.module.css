@@ -256,7 +256,7 @@ i:active {
     position: fixed;
     left: 10px;
     top: 145px;
-    font-size: 1rem;
+    font-size: .8rem;
     width: 80%;
 
     left: 15%;
@@ -285,7 +285,7 @@ i:active {
     right: 12%;
     width: 70%;
     height: 200px;
-    font-size: 0.6rem;
+    font-size: 0.4rem;
     font-family: 'Libre Baskerville', serif;
     line-height: 0.9rem;
     margin-bottom: 30px;
@@ -318,17 +318,28 @@ i:active {
 @media screen and (device-aspect-ratio: 40/71) {
   .description {
     position: fixed;
-    top: 420px;
+    top: 360px;
     right: 15%;
     width: 70%;
     padding: 0;
-    height: 140px;
-    font-size: 0.6rem;
+    height: 200px;
+    font-size: 0.4rem;
     font-family: 'Libre Baskerville', serif;
     line-height: 0.9rem;
     margin-bottom: 30px;
     margin-right: 0;
     overflow: scroll;
+  }
+
+  .video {
+    position: fixed;
+    top: 145px;
+    width: 70%;
+    height: 200px;
+  }
+
+  .iFrame {
+    height: 150px;
   }
 }
 
@@ -340,7 +351,7 @@ i:active {
     width: 70%;
     padding: 0;
     height: 300px;
-    font-size: 0.6rem;
+    font-size: 0.4rem;
     font-family: 'Libre Baskerville', serif;
     line-height: 0.9rem;
     margin-bottom: 30px;

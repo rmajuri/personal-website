@@ -46,6 +46,7 @@ const Resume = () => {
             <MobilePDFReader
               url="./Robert_Majuri_Resume.pdf"
               isShowHeader={false}
+              isShowFooter={false}
             />
           </div>
         )}
