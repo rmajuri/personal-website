@@ -1,5 +1,5 @@
 {
-  "main.css": "/robert-majuri/static/css/main.7ab9db3b.chunk.css",
+  "main.css": "/robert-majuri/static/css/main.3f34a46a.chunk.css",
   "main.js": "/robert-majuri/static/js/main.399ecb56.chunk.js",
   "main.js.map": "/robert-majuri/static/js/main.399ecb56.chunk.js.map",
   "runtime~main.js": "/robert-majuri/static/js/runtime~main.a4e3cdad.js",
@@ -7,7 +7,7 @@
   "static/js/2.59e5c200.chunk.js": "/robert-majuri/static/js/2.59e5c200.chunk.js",
   "static/js/2.59e5c200.chunk.js.map": "/robert-majuri/static/js/2.59e5c200.chunk.js.map",
   "index.html": "/robert-majuri/index.html",
-  "precache-manifest.1722ee16bb709fafa4b2da6435cc7a4d.js": "/robert-majuri/precache-manifest.1722ee16bb709fafa4b2da6435cc7a4d.js",
+  "precache-manifest.faa4f836d5ce770c48cfc5492803c0dd.js": "/robert-majuri/precache-manifest.faa4f836d5ce770c48cfc5492803c0dd.js",
   "service-worker.js": "/robert-majuri/service-worker.js",
-  "static/css/main.7ab9db3b.chunk.css.map": "/robert-majuri/static/css/main.7ab9db3b.chunk.css.map"
+  "static/css/main.3f34a46a.chunk.css.map": "/robert-majuri/static/css/main.3f34a46a.chunk.css.map"
 }
