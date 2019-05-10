@@ -32,7 +32,7 @@ const Resume = () => {
           </a>
         </div>
         {!isMobile ? (
-          <div className={style.docWrapper}>
+          <div className={style.docWrapper} style={{border: '10px solid rgba(247, 210, 210, 0.1)'}}>
             <Document
               loading=""
               file="Robert_Majuri_Resume.pdf"
