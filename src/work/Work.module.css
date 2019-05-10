@@ -318,11 +318,11 @@ i:active {
 @media screen and (device-aspect-ratio: 40/71) {
   .description {
     position: fixed;
-    top: 360px;
+    top: 340px;
     right: 15%;
     width: 70%;
     padding: 0;
-    height: 200px;
+    height: 180px;
     font-size: 0.4rem;
     font-family: 'Libre Baskerville', serif;
     line-height: 0.9rem;
@@ -335,7 +335,7 @@ i:active {
     position: fixed;
     top: 145px;
     width: 70%;
-    height: 200px;
+    height: 180px;
   }
 
   .iFrame {
