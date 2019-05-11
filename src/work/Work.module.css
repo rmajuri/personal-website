@@ -256,7 +256,7 @@ i:active {
   .videoTitle {
     position: fixed;
     left: 10px;
-    top: 130px;
+    top: 120px;
     font-size: .8rem;
     width: 80%;
 
@@ -272,7 +272,7 @@ i:active {
   }
 
   .iFrame {
-    top: 170px;
+    top: 150px;
     position: fixed;
     left: 15%;
     width: 70%;
@@ -282,7 +282,7 @@ i:active {
 
   .description {
     position: fixed;
-    top: 380px;
+    top: 360px;
     right: 12%;
     width: 70%;
     height: 200px;
@@ -319,7 +319,7 @@ i:active {
 @media screen and (device-aspect-ratio: 40/71) {
   .description {
     position: fixed;
-    top: 305px;
+    top: 290px;
     right: 15%;
     width: 70%;
     padding: 0;
@@ -340,7 +340,7 @@ i:active {
   }
 
   .iFrame {
-    top: 150px;
+    top: 130px;
     height: 140px;
   }
 }
