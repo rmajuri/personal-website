@@ -9,6 +9,7 @@
   position: fixed;
   cursor: default;
   display: flex;
+  overflow: auto;
 }
 
 .videoContainer {
@@ -256,7 +257,7 @@ i:active {
   .videoTitle {
     position: fixed;
     left: 10px;
-    top: 110px;
+    top: 120px;
     font-size: .8rem;
     width: 80%;
 
@@ -268,15 +269,15 @@ i:active {
     top: 135px;
     left: 15%;
     width: 70%;
-    height: 250px;
+    height: 205px;
   }
 
   .iFrame {
-    top: 150px;
+    top: 165px;
     position: fixed;
     left: 15%;
     width: 70%;
-    height: 200px;
+    height: 170px;
     margin-bottom: 90px;
   }
 
@@ -340,7 +341,7 @@ i:active {
   }
 
   .iFrame {
-    top: 150px;
+    top: 170px;
     height: 115px;
   }
 }
