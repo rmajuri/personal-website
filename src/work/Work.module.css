@@ -75,7 +75,7 @@
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
-  box-shadow: inset 0 0 5px rgba(250, 236, 236, 0.2);
+  box-shadow: inset 0 0 5px #FAECEC;
   padding: 10px;
 }
 
