@@ -111,6 +111,8 @@
   top: 170px;
   right: 17%;
   overflow: auto;
+  box-shadow: inset 0 0 5px #FAECEC;
+  padding: 15px;
 }
 
 .photo {
@@ -174,6 +176,7 @@
     flex-direction: column;
     align-items: center;
   }
+
   .photo {
     height: 65%;
     width: 75%;
@@ -187,6 +190,7 @@
     right: auto;
     width: 71%;
     height: 36%;
+    padding: 10px;
   }
 
   @-webkit-keyframes slide {
