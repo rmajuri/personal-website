@@ -256,7 +256,7 @@ i:active {
   .videoTitle {
     position: fixed;
     left: 10px;
-    top: 115px;
+    top: 110px;
     font-size: .8rem;
     width: 80%;
 
@@ -323,7 +323,7 @@ i:active {
     right: 15%;
     width: 70%;
     padding: 0;
-    height: 165px;
+    height: 140px;
     font-size: 0.4rem;
     font-family: 'Libre Baskerville', serif;
     line-height: 0.9rem;
