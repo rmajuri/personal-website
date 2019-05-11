@@ -51,6 +51,7 @@
   color: rgb(151, 150, 150);
   margin: 0;
   width: 100%;
+  padding: 0;
   position: fixed;
 }
 
@@ -255,7 +256,7 @@ i:active {
   .videoTitle {
     position: fixed;
     left: 10px;
-    top: 135px;
+    top: 130px;
     font-size: .8rem;
     width: 80%;
 
@@ -264,14 +265,14 @@ i:active {
 
   .video {
     position: fixed;
-    top: 145px;
+    top: 135px;
     left: 15%;
     width: 70%;
     height: 250px;
   }
 
   .iFrame {
-    top: 190px;
+    top: 170px;
     position: fixed;
     left: 15%;
     width: 70%;
@@ -281,7 +282,7 @@ i:active {
 
   .description {
     position: fixed;
-    top: 420px;
+    top: 380px;
     right: 12%;
     width: 70%;
     height: 200px;
@@ -318,7 +319,7 @@ i:active {
 @media screen and (device-aspect-ratio: 40/71) {
   .description {
     position: fixed;
-    top: 320px;
+    top: 305px;
     right: 15%;
     width: 70%;
     padding: 0;
@@ -333,13 +334,14 @@ i:active {
 
   .video {
     position: fixed;
-    top: 145px;
+    top: 155px;
     width: 70%;
-    height: 160px;
+    height: 140px;
   }
 
   .iFrame {
-    height: 150px;
+    top: 150px;
+    height: 140px;
   }
 }
 
