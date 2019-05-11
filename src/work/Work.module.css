@@ -320,6 +320,7 @@ i:active {
   }
 }
 
+/* SE */
 @media screen and (device-aspect-ratio: 40/71) {
   .description {
     position: fixed;
@@ -349,10 +350,11 @@ i:active {
   }
 }
 
+
 @media only screen and (min-width: 414px) and (min-height: 736px) and (-webkit-device-pixel-ratio: 3) {
   .description {
     position: fixed;
-    top: 420px;
+    top: 380px;
     right: 15%;
     width: 70%;
     padding: 0;

@@ -114,7 +114,7 @@
 
 @media screen and (device-aspect-ratio: 40/71) {
   .docWrapper {
-    position: fixed;
+    position: relative;
     align-self: center;
     top: 170px;
     width: 280px;
