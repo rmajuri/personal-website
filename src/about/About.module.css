@@ -111,7 +111,7 @@
   top: 170px;
   right: 17%;
   overflow: auto;
-  box-shadow: inset 0 0 5px #FAECEC;
+  box-shadow: inset 0 0 5px rgb(252, 231, 231);
   padding: 15px;
 }
 
@@ -191,6 +191,7 @@
     width: 71%;
     height: 36%;
     padding: 10px;
+    box-shadow: inset 0 0 5px transparent;
   }
 
   @-webkit-keyframes slide {
@@ -244,7 +245,7 @@
   .photo {
     height: 75%;
     width: 75%;
-    margin: 120px 0 0;
+    margin: 115px 0 0;
     opacity: 0.2;
   }
 }
