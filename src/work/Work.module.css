@@ -259,7 +259,7 @@ i:active {
     position: fixed;
     left: 10px;
     top: 120px;
-    font-size: .8rem;
+    font-size: 0.8rem;
     width: 80%;
 
     left: 15%;
@@ -349,7 +349,6 @@ i:active {
     height: 115px;
   }
 }
-
 
 @media only screen and (min-width: 414px) and (min-height: 736px) and (-webkit-device-pixel-ratio: 3) {
   .description {

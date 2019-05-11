@@ -21,9 +21,7 @@ const About = () => {
           src="rob.jpg"
           alt="Photograph of Rob Majuri"
         />
-        <p
-          className={style.bio}
-        >{bio}</p>
+        <p className={style.bio}>{bio}</p>
       </div>
     </div>
   )
