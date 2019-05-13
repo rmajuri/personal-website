@@ -2,7 +2,6 @@
   display: flex;
   z-index: 2500;
   position: fixed;
-  /* right: 2%; */
   align-self: flex-end;
   padding-right: 15px;
   top: 30px;
