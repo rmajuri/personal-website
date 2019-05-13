@@ -9,7 +9,7 @@ import Resume from './resume/Resume'
 class Routes extends Component {
   render() {
     return (
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
