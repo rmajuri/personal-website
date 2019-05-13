@@ -1,13 +1,13 @@
 {
-  "main.css": "/robert-majuri/static/css/main.f8942b2a.chunk.css",
-  "main.js": "/robert-majuri/static/js/main.73185e60.chunk.js",
-  "main.js.map": "/robert-majuri/static/js/main.73185e60.chunk.js.map",
+  "main.css": "/robert-majuri/static/css/main.1c214249.chunk.css",
+  "main.js": "/robert-majuri/static/js/main.7241f04d.chunk.js",
+  "main.js.map": "/robert-majuri/static/js/main.7241f04d.chunk.js.map",
   "runtime~main.js": "/robert-majuri/static/js/runtime~main.a4e3cdad.js",
   "runtime~main.js.map": "/robert-majuri/static/js/runtime~main.a4e3cdad.js.map",
-  "static/js/2.d81fbd06.chunk.js": "/robert-majuri/static/js/2.d81fbd06.chunk.js",
-  "static/js/2.d81fbd06.chunk.js.map": "/robert-majuri/static/js/2.d81fbd06.chunk.js.map",
+  "static/js/2.aca69edc.chunk.js": "/robert-majuri/static/js/2.aca69edc.chunk.js",
+  "static/js/2.aca69edc.chunk.js.map": "/robert-majuri/static/js/2.aca69edc.chunk.js.map",
   "index.html": "/robert-majuri/index.html",
-  "precache-manifest.cf4435b016d160f5cb3eb39cf9a5fd61.js": "/robert-majuri/precache-manifest.cf4435b016d160f5cb3eb39cf9a5fd61.js",
+  "precache-manifest.87adf0ace6053d145eae9f4a0c955a7d.js": "/robert-majuri/precache-manifest.87adf0ace6053d145eae9f4a0c955a7d.js",
   "service-worker.js": "/robert-majuri/service-worker.js",
-  "static/css/main.f8942b2a.chunk.css.map": "/robert-majuri/static/css/main.f8942b2a.chunk.css.map"
+  "static/css/main.1c214249.chunk.css.map": "/robert-majuri/static/css/main.1c214249.chunk.css.map"
 }
