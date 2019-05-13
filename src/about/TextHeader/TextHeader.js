@@ -2,14 +2,12 @@ import React, { useState, useEffect } from 'react'
 import style from './TextHeader.module.css'
 import { splitOnStarHeader, shuffleQuotes } from '../../utility/utility'
 import { textBlock } from '../../text/text-block'
-import { isMobile } from 'react-device-detect'
 
 const TextHeader = () => {
   const [quotes, setQuotes] = useState([])
-  const limit = isMobile ? 30 : 100
 
   useEffect(() => {
-    const quoteArray = shuffleQuotes(splitOnStarHeader(textBlock, limit))
+    const quoteArray = shuffleQuotes(splitOnStarHeader(textBlock, 105))
     setQuotes(quoteArray)
   }, [])
 

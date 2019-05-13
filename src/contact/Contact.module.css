@@ -17,7 +17,7 @@
   letter-spacing: 0.2rem;
   font-size: 2rem;
   font-weight: 700;
-  background: -webkit-linear-gradient(#6868f3, #f8fc2a, #f092f0, #aaaaaa);
+  background: -webkit-linear-gradient(#4b4bf3, #f3f715, #f34ff3, #aaaaaa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: default;
@@ -101,7 +101,7 @@
 
 .greeting {
   position: fixed;
-  top: 160px;
+  top: 185px;
   left: 370px;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.2rem;
@@ -149,7 +149,7 @@
 
   .greeting {
     position: relative;
-    top: 160px;
+    top: 175px;
     left: 0;
     align-self: center;
     width: 80%;
