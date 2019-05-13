@@ -32,11 +32,11 @@ const Resume = () => {
             <i className="fas fa-arrow-alt-circle-down" />
           </a>
         </div> : 
-        <div>
+        <div className={style.downloadArrow}>
           <div>
-            <h2>Download resume.</h2>
+            <h2 className={style.downloadText}>Download resume.</h2>
           </div>
-          <div className={style.downloadArrow}>
+          <div>
           <a
             href="Robert_Majuri_Resume.pdf"
             download

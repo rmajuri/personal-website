@@ -9,6 +9,7 @@
   position: fixed;
   cursor: default;
   display: flex;
+  flex-direction: column;
 }
 
 .videoContainer {
@@ -43,7 +44,6 @@
   position: fixed;
   top: 130px;
   left: 105px;
-  font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.2rem;
   font-size: 2rem;
   font-weight: 200;

@@ -2,6 +2,9 @@
   display: flex;
   z-index: 2500;
   position: fixed;
+  /* right: 2%; */
+  align-self: flex-end;
+  padding-right: 15px;
   top: 30px;
   width: 37%;
   justify-content: space-between;
@@ -47,6 +50,8 @@
     top: 8%;
     width: 90%;
     justify-content: space-between;
+    padding: 0;
+    align-self: center;
   }
 
   .option {
