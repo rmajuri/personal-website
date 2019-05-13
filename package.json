@@ -4,8 +4,10 @@
   "private": true,
   "dependencies": {
     "express": "^4.16.4",
+    "express-favicon": "^2.0.1",
     "gh-pages": "^2.0.1",
     "hover.css": "^2.3.2",
+    "path": "^0.12.7",
     "pdfjs-dist": "^2.0.943",
     "react": "^16.8.5",
     "react-device-detect": "^1.6.2",
