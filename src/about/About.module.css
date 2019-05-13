@@ -188,10 +188,10 @@
   }
 
   .bio {
-    display: inline-block;
     top: 50%;
-    right: auto;
-    width: 71%;
+    right: 15%;
+    left: 15%;
+    width: 70%;
     height: 36%;
     padding: 10px;
     box-shadow: inset 0 0 5px transparent;
@@ -259,9 +259,7 @@
 
 @media only screen and (min-width: 414px) and (min-height: 736px) and (-webkit-device-pixel-ratio: 3) {
   .bio {
-    display: inline-block;
     top: 55%;
-    right: auto;
     width: 71%;
     height: 36%;
     padding: 10px;
