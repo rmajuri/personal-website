@@ -47,7 +47,7 @@
   top: 130px;
   left: 105px;
   letter-spacing: 0.2rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 200;
   font-family: 'Libre Baskerville', serif;
   color: rgb(151, 150, 150);
@@ -62,6 +62,7 @@
   position: fixed;
   top: 210px;
   right: 95px;
+  height: 400px;
   width: 37%;
   font-size: 0.6rem;
   font-family: 'Libre Baskerville', serif;
