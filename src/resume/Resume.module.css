@@ -117,6 +117,7 @@
     align-self: center;
     top: 180px;
     width: 300px;
+    z-index: 50000;
   }
 }
 

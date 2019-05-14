@@ -1,6 +1,5 @@
 .container {
   display: flex;
-  z-index: 2500;
   position: fixed;
   align-self: flex-end;
   padding-right: 15px;
