@@ -44,6 +44,13 @@
   transform: scale(1.1);
 }
 
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 60%;
+  }
+
+}
+
 @media only screen and (max-width: 600px) {
   .container {
     top: 8%;

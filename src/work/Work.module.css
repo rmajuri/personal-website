@@ -242,6 +242,42 @@ i:active {
   margin-left: 20px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .description {
+    width: 35%;
+  }
+
+  .video {
+    width: 40%;
+  }
+
+  .iFrame {
+    left: 10%;
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .description {
+    right: 15%;
+    left: 15%;
+    top: 600px;
+    width: 70%;
+    height: 300px;
+    font-size: 1rem;
+  }
+
+  .video {
+    left: 15%;
+    width: 70%;
+  }
+
+  .iFrame {
+    left: 15%;
+    width: 500px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   i {
     font-size: 2rem;
@@ -263,7 +299,7 @@ i:active {
     position: fixed;
     left: 10px;
     top: 120px;
-    font-size: .9rem;
+    font-size: 0.9rem;
     width: 80%;
     left: 15%;
   }
@@ -302,7 +338,6 @@ i:active {
     padding: 10px;
   }
 
-
   .arrowLeft {
     position: fixed;
     top: 200px;
@@ -326,8 +361,7 @@ i:active {
 
 /* SE */
 @media screen and (device-aspect-ratio: 40/71) {
-
-    .description {
+  .description {
     position: fixed;
     top: 290px;
     right: 10%;
@@ -341,8 +375,6 @@ i:active {
     margin-right: 0;
     overflow: scroll;
   }
-
-
 
   .video {
     position: fixed;

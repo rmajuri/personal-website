@@ -42,12 +42,11 @@
   transform: scale(1.1);
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1200px) {
   .option {
-   font-size: 2rem;
+    font-size: 2rem;
   }
 }
-
 
 @media only screen and (max-width: 600px) {
   .container {
