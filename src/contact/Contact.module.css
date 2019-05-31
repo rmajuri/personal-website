@@ -114,6 +114,14 @@
   position: fixed;
 }
 
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 800px) {
+
+}
+
 @media only screen and (max-width: 600px) {
   .header {
     font-size: 1.5rem;

@@ -162,6 +162,15 @@
   cursor: default;
 }
 
+@media only screen and (max-width: 1200px) {
+  .bio {
+    right: 7%;
+    top: 200px;
+  }
+  .photo {
+    margin-top: 190px;
+  }
+}
 
 @media only screen and (max-width: 800px) {
   .photo {
