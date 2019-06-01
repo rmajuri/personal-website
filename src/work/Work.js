@@ -96,6 +96,7 @@ const Work = props => {
                 </span>
               </p>
             ) : null}
+            <p><span className={style.boldText}>Tech Used: </span>{currentProject.tech}</p>
             <p>{currentProject.description}</p>
             <p>
               <span className={style.italic}>{currentProject.note}</span>
