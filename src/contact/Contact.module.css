@@ -73,6 +73,21 @@
   transform: skew(15deg, 85deg);
 }
 
+.iconContainer {
+  position: fixed;
+  top: 250px;
+  left: 360px;
+  border-style: solid;
+  border-width: 10px;
+  background-color: rgba(255, 255, 224, 0.15);
+  border-color: rgba(247, 210, 210, 0.15);
+  opacity: 0.8;
+  padding: 35px;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
 .contactDetailsContainer {
   position: fixed;
   top: 250px;
@@ -83,20 +98,6 @@
   border-color: rgba(247, 210, 210, 0.15);
   opacity: 0.8;
   padding: 35px;
-}
-
-.contactDetailsContainer p {
-  font-size: 0.9rem;
-  font-family: 'Libre Baskerville', serif;
-  line-height: 1rem;
-  color: rgb(99, 98, 98);
-  letter-spacing: 0.1rem;
-  cursor: text;
-}
-
-.contactDetailsContainer p > span {
-  text-transform: uppercase;
-  font-weight: 700;
 }
 
 .greeting {
@@ -138,20 +139,19 @@
     width: 200px;
   }
 
-  .contactDetailsContainer {
+  .iconContainer {
     position: relative;
     top: 240px;
     left: 0;
-    align-self: center;
     border-style: solid;
+    border-width: 10px;
+    background-color: rgba(255, 255, 224, 0.15);
+    border-color: rgba(247, 210, 210, 0.15);
+    opacity: 0.8;
     padding: 15px;
-    margin: 0;
+    display: flex;
+    justify-content: space-between;
     width: 80%;
-    word-wrap: break-word;
-  }
-
-  .contactDetailsContainer p {
-    font-size: 0.7rem;
   }
 
   .greeting {
@@ -166,7 +166,7 @@
 }
 
 @media screen and (device-aspect-ratio: 40/71) {
-  .contactDetailsContainer {
+  .iconContainer {
     top: 200px;
     width: 75%;
   }

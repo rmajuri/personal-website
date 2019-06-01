@@ -23,22 +23,10 @@ const Contact = () => {
           typeSpeed={120}
           loop={false}
         />
-        <div className={style.contactDetailsContainer}>
-          <p>
-            <span>Email: </span><a href="mailto: robmajuri@gmail.com">robmajuri@gmail.com</a>
-          </p>
-          <p>
-            <span>GitHub: </span>
-            <a href="https://github.com/rmajuri" target="blank">
-              https://github.com/rmajuri
-            </a>
-          </p>
-          <p>
-            <span>LinkedIn: </span>
-            <a href="https://www.linkedin.com/in/robertmajuri/" target="blank">
-              https://www.linkedin.com/in/robertmajuri/
-            </a>
-          </p>
+        <div className={style.iconContainer}>
+        <a href="mailto: robmajuri@gmail.com" target="blank"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/robertmajuri/" target="blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/rmajuri"><i className="fab fa-github" /></a>
         </div>
       </div>
     </div>
