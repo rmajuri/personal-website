@@ -87,7 +87,7 @@
 
 .contactDetailsContainer p {
   font-size: 0.9rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Libre Baskerville', serif;
   line-height: 1rem;
   color: rgb(99, 98, 98);
   letter-spacing: 0.1rem;
@@ -103,7 +103,7 @@
   position: fixed;
   top: 185px;
   left: 370px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Libre Baskerville', serif;
   letter-spacing: 0.2rem;
   font-size: 2rem;
   font-weight: 200;
