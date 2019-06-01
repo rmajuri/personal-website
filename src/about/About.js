@@ -23,7 +23,7 @@ const About = () => {
         />
         <section className={style.bio}>
         <p>I&apos;ve always had a restless urge for creativity and analytical thinking.</p>
-        <p>Whether teaching myself how to write music or how to write a novel, I love building something new.</p>
+        <p>Whether teaching myself how to write <a href="https://soundcloud.com/theimpressionistmusic/tracks" target="blank" role="link">music</a> or how to write a <a href="https://www.goodreads.com/book/show/33786526-lucy-teaches-in-dolores" target="blank" role="link">novel</a>, I love building something new.</p>
         <p>This urge to create and problem-solve is what drove me to pursue a career in software development.
         Coding offers me the boundless canvas for creativity that I was always searching for. 
         </p>

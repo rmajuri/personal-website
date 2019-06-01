@@ -25,7 +25,7 @@ const Contact = () => {
         />
         <div className={style.contactDetailsContainer}>
           <p>
-            <span>Email: </span>robmajuri@gmail.com
+            <span>Email: </span><a href="mailto: robmajuri@gmail.com">robmajuri@gmail.com</a>
           </p>
           <p>
             <span>GitHub: </span>
