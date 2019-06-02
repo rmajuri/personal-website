@@ -76,7 +76,7 @@
 .iconContainer {
   position: fixed;
   top: 250px;
-  left: 28%;
+  left: 30%;
   border-style: solid;
   border-width: 10px;
   background-color: rgba(255, 255, 224, 0.15);
@@ -85,7 +85,9 @@
   padding: 35px;
   display: flex;
   justify-content: space-between;
+  margin: 0;
   width: 40%;
+  z-index: 50000;
 }
 
 .contactDetailsContainer {
@@ -103,15 +105,13 @@
 .greeting {
   position: fixed;
   top: 185px;
-  left: 28%;
+  left: 30%;
   font-family: 'Libre Baskerville', serif;
   letter-spacing: 0.2rem;
   font-size: 2rem;
   font-weight: 200;
   color: rgb(151, 150, 150);
   margin: 0;
-  width: 100%;
-  position: fixed;
 }
 
 @media only screen and (max-width: 1200px) {

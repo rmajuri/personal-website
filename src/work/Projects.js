@@ -5,7 +5,7 @@ export const projectData = [
     github: 'https://github.com/rmajuri/click-chord',
     tech: 'React, Tone.js, Node, Express, Webpack',
     description: `Click-Chord offers users the ability to create synthesizer chord progressions in the browser.
-    Users can choose between a "Rythm Maker" and "Rhythm Builder" to backdrop their chord progressions with percussion`,
+    Users can choose between a "Rythm Maker" and "Rhythm Builder" to backdrop their chord progressions with percussion.`,
     note: `*Note: Not compatible with some web browsers. Best viewed using
     Google Chrome.`,
     videoURL: 'click-chord.mp4',

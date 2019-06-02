@@ -24,8 +24,8 @@ const Contact = () => {
           loop={false}
         />
         <div className={style.iconContainer}>
-        <a href="mailto: robmajuri@gmail.com" target="blank"><i class="fas fa-envelope"></i></a>
-        <a href="https://www.linkedin.com/in/robertmajuri/" target="blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto: robmajuri@gmail.com" target="blank"><i className="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/robertmajuri/" target="blank"><i className="fab fa-linkedin-in"></i></a>
         <a href="https://github.com/rmajuri"><i className="fab fa-github" /></a>
         </div>
       </div>
