@@ -217,7 +217,7 @@
 
   .photo {
     height: 65%;
-    width: 75%;
+    width: 70%;
     margin: 125px 0 0;
     opacity: 0.2;
 
@@ -227,7 +227,7 @@
     top: 52%;
     right: 15%;
     left: 15%;
-    width: 70%;
+    width: 73%;
     height: 36%;
     padding: 10px;
     box-shadow: inset 0 0 5px transparent;
@@ -283,7 +283,6 @@
 @media screen and (device-aspect-ratio: 40/71) {
   .photo {
     height: 75%;
-    width: 70%;
     margin: 107px 0 0;
     opacity: 0.2;
   }

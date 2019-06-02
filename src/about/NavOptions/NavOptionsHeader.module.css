@@ -62,7 +62,6 @@
   .container {
     top: 8%;
     width: 87%;
-    justify-content: space-between;
     padding: 0;
     align-self: center;
   }
