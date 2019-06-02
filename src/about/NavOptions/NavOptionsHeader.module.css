@@ -76,6 +76,7 @@
 @media screen and (device-aspect-ratio: 40/71) {
   .container {
     top: 12%;
+    width: 95%;
   }
 
   .option {
