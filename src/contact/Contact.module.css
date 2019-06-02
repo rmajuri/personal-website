@@ -159,6 +159,7 @@
     display: flex;
     justify-content: space-between;
     width: 70%;
+    z-index: 50000;
   }
 
   .greeting {
@@ -218,7 +219,6 @@
     align-self: center;
     width: 80%;
     font-size: 1.3rem;
-    z-index: 50000;
   }
 }
 
