@@ -144,4 +144,9 @@
     width: 280px;
     height: 380px;
   }
+
+    .header {
+      left: 7px;
+    }
+
 }

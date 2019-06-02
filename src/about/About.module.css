@@ -291,6 +291,10 @@
   .bio {
     top: 59%;
   }
+
+  .header {
+    left: 7px;
+  }
 }
 
 @media only screen and (min-width: 414px) and (min-height: 736px) and (-webkit-device-pixel-ratio: 3) {
