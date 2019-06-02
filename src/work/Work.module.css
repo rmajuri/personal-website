@@ -115,7 +115,7 @@
   letter-spacing: 0.2rem;
   font-size: 2rem;
   font-weight: 700;
-  background: -webkit-linear-gradient(#4b4bf3, #f3f715, #f34ff3, #aaaaaa);
+  background: -webkit-linear-gradient(#4b4bf3, #ffd902, #f34ff3, #aaaaaa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: default;

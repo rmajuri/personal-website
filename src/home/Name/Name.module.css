@@ -17,9 +17,9 @@
 .headingText {
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.2rem;
-  font-size: 1.3rem;
+  font-size: 2rem;
   font-weight: 300;
-  background: -webkit-linear-gradient(#4b4bf3, #f3f715, #f34ff3, #aaaaaa);
+  background: -webkit-linear-gradient(#4b4bf3, #ffd902, #f34ff3, #aaaaaa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: default;
@@ -35,23 +35,17 @@
   }
 
   .headingText {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 
 @media screen and (device-aspect-ratio: 40/71) {
   .headingText {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   .container {
     top: 8%;
     left: 10%;
-  }
-}
-
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-  .headingText {
-    font-size: 1rem;
   }
 }
