@@ -28,10 +28,10 @@ const About = () => {
         <p>This urge to create and problem-solve is what drove me to pursue a career in software development.
         Coding offers me the boundless canvas for creativity that I was always searching for. 
         </p>
-        <p>After teaching myself the fundamentals of JavaScript, HTML, and CSS, I attended Fullstack Academy of Code, based in NY, for 4 months.</p>
+        <p>After teaching myself the fundamentals of JavaScript, HTML, and CSS, I attended Fullstack Academy of Code, based in New York, for 4 months.</p>
         <p>There I learned how to write applications from front to back using JavaScript, Node.js, React, Redux, PostgreSQL, and more.</p>
         <p>At my current job, I taught myself how to write Python so that I could contribute to the codebase. And lately, I&apos;ve been excited about the framework <a href="https://www.gatsbyjs.org/" target="blank">Gatsby</a>.</p>
-        <p>I like using tools that allow for clean code but also enable me create pleasant user experiences.</p>
+        <p>I like using tools that allow for clean code but also enable me to create pleasant user experiences.</p>
         <p>The most rewarding part of development is getting to work on projects that help people and businesses reach their goals.</p>
         <p>When I&apos;m not writing code, I like making noise in GarageBand, nerding out by talking about or reading books, and exploring the historic parts of Philadelphia.</p>
         <p>Let it be known that I am an unashamed cat enthusiast, with the calendar on my desk to prove it.</p>

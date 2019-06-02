@@ -26,7 +26,7 @@ export const projectData = [
     deployedAt: '',
     github: 'https://github.com/S-E-R-J/catify',
     tech: 'React Native, Redux, Firebase',
-    description: `I collaborated with three other developers to create a mobile messaging app called Catify. To build this app, we used React Native and the Expo.io toolchain. Among my particular contributions to the project was developing UI using React Native, as well as Native Base and Expo libraries. I helped develop our app's navigation architecture, messaging interface, and photo-generation feature. I also integrated Redux into our application.`,
+    description: `I collaborated with three other developers to create a mobile messaging app called Catify. To build this app, we used React Native and the Expo.io toolchain. Among my particular contributions to the project were developing the UI, architecting the navigation flow, and integrating Redux.`,
     note: '',
     videoURL: 'https://www.youtube.com/embed/RogIJkblx04',
     videoType: 'YouTube',
