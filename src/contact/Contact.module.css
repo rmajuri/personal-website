@@ -114,6 +114,8 @@
   margin: 0;
 }
 
+
+
 @media only screen and (max-width: 1200px) {
   .iconContainer {
     position: relative;
@@ -145,6 +147,8 @@
   }
 
 }
+
+
 @media only screen and (max-width: 800px) {
   .iconContainer {
     position: relative;
@@ -177,6 +181,8 @@
   }
 
 }
+
+
 
 
 
@@ -222,6 +228,8 @@
   }
 }
 
+
+
 @media screen and (device-aspect-ratio: 40/71) {
   .iconContainer {
     top: 200px;
@@ -233,3 +241,13 @@
     }
 
 }
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+
+      .photo {
+        width: 75%;
+      }
+    }
